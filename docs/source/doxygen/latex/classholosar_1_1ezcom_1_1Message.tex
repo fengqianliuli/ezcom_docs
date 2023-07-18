@@ -1,0 +1,572 @@
+\hypertarget{classholosar_1_1ezcom_1_1Message}{}\doxysection{holosar\+::ezcom\+::Message类 参考}
+\label{classholosar_1_1ezcom_1_1Message}\index{holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a68ecca96e58b42448845f91e5d0c15b5}\label{classholosar_1_1ezcom_1_1Message_a68ecca96e58b42448845f91e5d0c15b5}} 
+{\bfseries Message} (const \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} \&)=delete
+\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a29153e0277b4b03a3b18d31185b439c2}\label{classholosar_1_1ezcom_1_1Message_a29153e0277b4b03a3b18d31185b439c2}} 
+\mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} \& {\bfseries operator=} (const \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} \&)=delete
+\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a0217a1f7742d8c1e360fdab24db6f958}\label{classholosar_1_1ezcom_1_1Message_a0217a1f7742d8c1e360fdab24db6f958}} 
+{\bfseries Message} (\mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} \&\&)=delete
+\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a9211ce01911ceb4b57a1bd7a2e94813d}\label{classholosar_1_1ezcom_1_1Message_a9211ce01911ceb4b57a1bd7a2e94813d}} 
+\mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} \& {\bfseries operator=} (\mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} \&\&)=delete
+\item 
+uint64\+\_\+t \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a37b4764c182c9cd9ec312d0705adfb66}{Get\+Msg\+Id}} () const
+\begin{DoxyCompactList}\small\item\em get the msg id of the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a2a21da102ea28524640dd4c01dc30317}{Set\+Msg\+Id}} (const uint64\+\_\+t \&msg\+\_\+id)
+\begin{DoxyCompactList}\small\item\em set the msg id of the message \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ Protobuf\+Message $>$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a7a1decc9f337de8732aed6a9848fe19c}{Get\+Protobuf\+Message}} () const
+\begin{DoxyCompactList}\small\item\em get the protobuf msg of the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_ac56d200ab0d06e357988d76955111825}{Add\+Int32}} (const int32\+\_\+t \&value)
+\begin{DoxyCompactList}\small\item\em add a int32 field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a3bfb1a34dc347dfe2248ec90cefe931c}{Add\+Int64}} (const int64\+\_\+t \&value)
+\begin{DoxyCompactList}\small\item\em add a int64 field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a95de2fd5eeb4295bcbc3dbebd8c64fea}{Add\+Uint32}} (const uint32\+\_\+t \&value)
+\begin{DoxyCompactList}\small\item\em add a uint32 field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_ab16dd3b54da09c3612cdba571811190c}{Add\+Uint64}} (const uint64\+\_\+t \&value)
+\begin{DoxyCompactList}\small\item\em add a uint64 field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_afc96373a29b9d05b4f5efa74efa16b61}{Add\+Float}} (const float \&value)
+\begin{DoxyCompactList}\small\item\em add a float field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a0ba418ea5d8fe3aa6dfb973eea9ee17f}{Add\+Double}} (const double \&value)
+\begin{DoxyCompactList}\small\item\em add a double field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a87ffdb32f5b52e3ea66ccb1986358527}{Add\+Bool}} (const bool \&value)
+\begin{DoxyCompactList}\small\item\em add a bool field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_af561efe3c08bbc2785747fb4a8c0b52b}{Add\+String}} (const std\+::string \&value)
+\begin{DoxyCompactList}\small\item\em add a string field to the message \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_abc57c60c0ff0c7e1a05ff314d9ea7247}{Add\+Bytes}} (const void $\ast$value, size\+\_\+t size)
+\begin{DoxyCompactList}\small\item\em add a bytes field to the message \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_ad5339fae46c13db763fc96aed860cb42}\label{classholosar_1_1ezcom_1_1Message_ad5339fae46c13db763fc96aed860cb42}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_ad5339fae46c13db763fc96aed860cb42}{Clean\+Int32}} ()
+\begin{DoxyCompactList}\small\item\em clean all the int32 fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a2ed211ab1790f898749b005a64461ab0}\label{classholosar_1_1ezcom_1_1Message_a2ed211ab1790f898749b005a64461ab0}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a2ed211ab1790f898749b005a64461ab0}{Clean\+Int64}} ()
+\begin{DoxyCompactList}\small\item\em clean all the int64 fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a2bca5db0865b9e0922d58a72c932eaa6}\label{classholosar_1_1ezcom_1_1Message_a2bca5db0865b9e0922d58a72c932eaa6}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a2bca5db0865b9e0922d58a72c932eaa6}{Clean\+Uint32}} ()
+\begin{DoxyCompactList}\small\item\em clean all the uint32 fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a7b1f39c90d98101c4195059b8e313a5c}\label{classholosar_1_1ezcom_1_1Message_a7b1f39c90d98101c4195059b8e313a5c}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a7b1f39c90d98101c4195059b8e313a5c}{Clean\+Uint64}} ()
+\begin{DoxyCompactList}\small\item\em clean all the uint64 fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_aae0e65388e269e174b7e003f741a693a}\label{classholosar_1_1ezcom_1_1Message_aae0e65388e269e174b7e003f741a693a}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_aae0e65388e269e174b7e003f741a693a}{Clean\+Float}} ()
+\begin{DoxyCompactList}\small\item\em clean all the float fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a987b04b872ca4a9a68d8b46b2a954e4e}\label{classholosar_1_1ezcom_1_1Message_a987b04b872ca4a9a68d8b46b2a954e4e}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a987b04b872ca4a9a68d8b46b2a954e4e}{Clean\+Double}} ()
+\begin{DoxyCompactList}\small\item\em clean all the double fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a5d5542e1c7ae896de0763de785176f09}\label{classholosar_1_1ezcom_1_1Message_a5d5542e1c7ae896de0763de785176f09}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a5d5542e1c7ae896de0763de785176f09}{Clean\+Bool}} ()
+\begin{DoxyCompactList}\small\item\em clean all the bool fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_af78241f0bb4df0b000970d2a328ef17e}\label{classholosar_1_1ezcom_1_1Message_af78241f0bb4df0b000970d2a328ef17e}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_af78241f0bb4df0b000970d2a328ef17e}{Clean\+String}} ()
+\begin{DoxyCompactList}\small\item\em clean all the string fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_abe0aa213f1efd8964a053fc60b277eaf}\label{classholosar_1_1ezcom_1_1Message_abe0aa213f1efd8964a053fc60b277eaf}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_abe0aa213f1efd8964a053fc60b277eaf}{Clean\+Bytes}} ()
+\begin{DoxyCompactList}\small\item\em clean all the bytes fields \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a45cd888a2983076bf7d3e4a2e4c76d71}\label{classholosar_1_1ezcom_1_1Message_a45cd888a2983076bf7d3e4a2e4c76d71}} 
+void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a45cd888a2983076bf7d3e4a2e4c76d71}{Clean\+All}} ()
+\begin{DoxyCompactList}\small\item\em clean all the fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_ae4a21749c551093a7a20aaf28671efbc}{Get\+Int32\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the int32 fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a3f4e4074b9e4fd209ebbce007307d5ec}{Get\+Int64\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the int64 fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_aec40b57682335e108a7cf94067c7f698}{Get\+Uint32\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the uint32 fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a19d39ec964e74c766ee888b8b4093023}{Get\+Uint64\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the uint64 fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a239b42d27d09666a399e8a6e0ee8214a}{Get\+Float\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the float fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a8dd584c220843e7244a52b7614759ad8}{Get\+Double\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the double fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a64912caa1b369f0da1e0a8464d8caad4}{Get\+Bool\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the bool fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_af795f0db5dafb20186eedeb185d6f0a0}{Get\+String\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the string fields \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_abb617eb8b6dd25d682208bd4295e80e8}{Get\+Bytes\+Size}} () const
+\begin{DoxyCompactList}\small\item\em get the size of the bytes fields \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a57f7cf49518bac97339112334d7f4e29}{Get\+Int32}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the int32 field at the index \end{DoxyCompactList}\item 
+int64\+\_\+t \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a0e79b49084647c98ba5003828aa6a303}{Get\+Int64}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the int64 field at the index \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a6c1ec7deb8dd17b7d093484ee99f67f2}{Get\+Uint32}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the uint32 field at the index \end{DoxyCompactList}\item 
+uint64\+\_\+t \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a0549c6f36caedc7bd9606b4316782634}{Get\+Uint64}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the uint64 field at the index \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a7fd83f4c4ec43b4c4e2e7f4e9259c197}{Get\+Float}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the float field at the index \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a240447e1f7a52f62faa897b45219dbbc}{Get\+Double}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the double field at the index \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a52410eee183bc7aade38e0d0e48665fd}{Get\+Bool}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the bool field at the index \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_ae5cabf98fefef92df46d23a71b3f6941}{Get\+String}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the string field at the index \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message_a167eca76d91d750177f57ed16766bb71}{Get\+Bytes}} (int index) const
+\begin{DoxyCompactList}\small\item\em get the bytes field at the index \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{成员函数说明}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a87ffdb32f5b52e3ea66ccb1986358527}\label{classholosar_1_1ezcom_1_1Message_a87ffdb32f5b52e3ea66ccb1986358527}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddBool@{AddBool}}
+\index{AddBool@{AddBool}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddBool()}{AddBool()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Bool (\begin{DoxyParamCaption}\item[{const bool \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a bool field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the bool field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_abc57c60c0ff0c7e1a05ff314d9ea7247}\label{classholosar_1_1ezcom_1_1Message_abc57c60c0ff0c7e1a05ff314d9ea7247}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddBytes@{AddBytes}}
+\index{AddBytes@{AddBytes}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddBytes()}{AddBytes()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Bytes (\begin{DoxyParamCaption}\item[{const void $\ast$}]{value,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+
+
+add a bytes field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the point of the bytes field \\
+\hline
+{\em size} & the size of the bytes field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a0ba418ea5d8fe3aa6dfb973eea9ee17f}\label{classholosar_1_1ezcom_1_1Message_a0ba418ea5d8fe3aa6dfb973eea9ee17f}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddDouble@{AddDouble}}
+\index{AddDouble@{AddDouble}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddDouble()}{AddDouble()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Double (\begin{DoxyParamCaption}\item[{const double \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a double field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the double field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_afc96373a29b9d05b4f5efa74efa16b61}\label{classholosar_1_1ezcom_1_1Message_afc96373a29b9d05b4f5efa74efa16b61}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddFloat@{AddFloat}}
+\index{AddFloat@{AddFloat}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddFloat()}{AddFloat()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Float (\begin{DoxyParamCaption}\item[{const float \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a float field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the float field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_ac56d200ab0d06e357988d76955111825}\label{classholosar_1_1ezcom_1_1Message_ac56d200ab0d06e357988d76955111825}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddInt32@{AddInt32}}
+\index{AddInt32@{AddInt32}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddInt32()}{AddInt32()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Int32 (\begin{DoxyParamCaption}\item[{const int32\+\_\+t \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a int32 field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the int32 field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a3bfb1a34dc347dfe2248ec90cefe931c}\label{classholosar_1_1ezcom_1_1Message_a3bfb1a34dc347dfe2248ec90cefe931c}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddInt64@{AddInt64}}
+\index{AddInt64@{AddInt64}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddInt64()}{AddInt64()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Int64 (\begin{DoxyParamCaption}\item[{const int64\+\_\+t \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a int64 field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the int64 field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_af561efe3c08bbc2785747fb4a8c0b52b}\label{classholosar_1_1ezcom_1_1Message_af561efe3c08bbc2785747fb4a8c0b52b}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddString@{AddString}}
+\index{AddString@{AddString}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddString()}{AddString()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+String (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a string field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the string field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a95de2fd5eeb4295bcbc3dbebd8c64fea}\label{classholosar_1_1ezcom_1_1Message_a95de2fd5eeb4295bcbc3dbebd8c64fea}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddUint32@{AddUint32}}
+\index{AddUint32@{AddUint32}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddUint32()}{AddUint32()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Uint32 (\begin{DoxyParamCaption}\item[{const uint32\+\_\+t \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a uint32 field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the uint32 field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_ab16dd3b54da09c3612cdba571811190c}\label{classholosar_1_1ezcom_1_1Message_ab16dd3b54da09c3612cdba571811190c}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!AddUint64@{AddUint64}}
+\index{AddUint64@{AddUint64}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{AddUint64()}{AddUint64()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Add\+Uint64 (\begin{DoxyParamCaption}\item[{const uint64\+\_\+t \&}]{value }\end{DoxyParamCaption})}
+
+
+
+add a uint64 field to the message 
+
+
+\begin{DoxyParams}{参数}
+{\em value} & the value of the uint64 field \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a52410eee183bc7aade38e0d0e48665fd}\label{classholosar_1_1ezcom_1_1Message_a52410eee183bc7aade38e0d0e48665fd}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetBool@{GetBool}}
+\index{GetBool@{GetBool}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetBool()}{GetBool()}}
+{\footnotesize\ttfamily bool holosar\+::ezcom\+::\+Message\+::\+Get\+Bool (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the bool field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+bool the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a64912caa1b369f0da1e0a8464d8caad4}\label{classholosar_1_1ezcom_1_1Message_a64912caa1b369f0da1e0a8464d8caad4}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetBoolSize@{GetBoolSize}}
+\index{GetBoolSize@{GetBoolSize}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetBoolSize()}{GetBoolSize()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Bool\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the bool fields 
+
+\begin{DoxyReturn}{返回}
+the size of the bool fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a167eca76d91d750177f57ed16766bb71}\label{classholosar_1_1ezcom_1_1Message_a167eca76d91d750177f57ed16766bb71}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetBytes@{GetBytes}}
+\index{GetBytes@{GetBytes}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetBytes()}{GetBytes()}}
+{\footnotesize\ttfamily std\+::string holosar\+::ezcom\+::\+Message\+::\+Get\+Bytes (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the bytes field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+std\+::string the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_abb617eb8b6dd25d682208bd4295e80e8}\label{classholosar_1_1ezcom_1_1Message_abb617eb8b6dd25d682208bd4295e80e8}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetBytesSize@{GetBytesSize}}
+\index{GetBytesSize@{GetBytesSize}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetBytesSize()}{GetBytesSize()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Bytes\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the bytes fields 
+
+\begin{DoxyReturn}{返回}
+the size of the bytes fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a240447e1f7a52f62faa897b45219dbbc}\label{classholosar_1_1ezcom_1_1Message_a240447e1f7a52f62faa897b45219dbbc}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetDouble@{GetDouble}}
+\index{GetDouble@{GetDouble}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetDouble()}{GetDouble()}}
+{\footnotesize\ttfamily double holosar\+::ezcom\+::\+Message\+::\+Get\+Double (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the double field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+double the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a8dd584c220843e7244a52b7614759ad8}\label{classholosar_1_1ezcom_1_1Message_a8dd584c220843e7244a52b7614759ad8}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetDoubleSize@{GetDoubleSize}}
+\index{GetDoubleSize@{GetDoubleSize}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetDoubleSize()}{GetDoubleSize()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Double\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the double fields 
+
+\begin{DoxyReturn}{返回}
+the size of the double fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a7fd83f4c4ec43b4c4e2e7f4e9259c197}\label{classholosar_1_1ezcom_1_1Message_a7fd83f4c4ec43b4c4e2e7f4e9259c197}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetFloat@{GetFloat}}
+\index{GetFloat@{GetFloat}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetFloat()}{GetFloat()}}
+{\footnotesize\ttfamily float holosar\+::ezcom\+::\+Message\+::\+Get\+Float (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the float field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+float the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a239b42d27d09666a399e8a6e0ee8214a}\label{classholosar_1_1ezcom_1_1Message_a239b42d27d09666a399e8a6e0ee8214a}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetFloatSize@{GetFloatSize}}
+\index{GetFloatSize@{GetFloatSize}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetFloatSize()}{GetFloatSize()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Float\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the float fields 
+
+\begin{DoxyReturn}{返回}
+the size of the float fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a57f7cf49518bac97339112334d7f4e29}\label{classholosar_1_1ezcom_1_1Message_a57f7cf49518bac97339112334d7f4e29}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetInt32@{GetInt32}}
+\index{GetInt32@{GetInt32}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetInt32()}{GetInt32()}}
+{\footnotesize\ttfamily int32\+\_\+t holosar\+::ezcom\+::\+Message\+::\+Get\+Int32 (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the int32 field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+int32\+\_\+t the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_ae4a21749c551093a7a20aaf28671efbc}\label{classholosar_1_1ezcom_1_1Message_ae4a21749c551093a7a20aaf28671efbc}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetInt32Size@{GetInt32Size}}
+\index{GetInt32Size@{GetInt32Size}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetInt32Size()}{GetInt32Size()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Int32\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the int32 fields 
+
+\begin{DoxyReturn}{返回}
+the size of the int32 fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a0e79b49084647c98ba5003828aa6a303}\label{classholosar_1_1ezcom_1_1Message_a0e79b49084647c98ba5003828aa6a303}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetInt64@{GetInt64}}
+\index{GetInt64@{GetInt64}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetInt64()}{GetInt64()}}
+{\footnotesize\ttfamily int64\+\_\+t holosar\+::ezcom\+::\+Message\+::\+Get\+Int64 (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the int64 field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+int64\+\_\+t the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a3f4e4074b9e4fd209ebbce007307d5ec}\label{classholosar_1_1ezcom_1_1Message_a3f4e4074b9e4fd209ebbce007307d5ec}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetInt64Size@{GetInt64Size}}
+\index{GetInt64Size@{GetInt64Size}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetInt64Size()}{GetInt64Size()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Int64\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the int64 fields 
+
+\begin{DoxyReturn}{返回}
+the size of the int64 fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a37b4764c182c9cd9ec312d0705adfb66}\label{classholosar_1_1ezcom_1_1Message_a37b4764c182c9cd9ec312d0705adfb66}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetMsgId@{GetMsgId}}
+\index{GetMsgId@{GetMsgId}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetMsgId()}{GetMsgId()}}
+{\footnotesize\ttfamily uint64\+\_\+t holosar\+::ezcom\+::\+Message\+::\+Get\+Msg\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the msg id of the message 
+
+\begin{DoxyReturn}{返回}
+uint64\+\_\+t the msg id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a7a1decc9f337de8732aed6a9848fe19c}\label{classholosar_1_1ezcom_1_1Message_a7a1decc9f337de8732aed6a9848fe19c}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetProtobufMessage@{GetProtobufMessage}}
+\index{GetProtobufMessage@{GetProtobufMessage}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetProtobufMessage()}{GetProtobufMessage()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$Protobuf\+Message$>$ holosar\+::ezcom\+::\+Message\+::\+Get\+Protobuf\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the protobuf msg of the message 
+
+\begin{DoxyReturn}{返回}
+std\+::shared\+\_\+ptr$<$\+Protobuf\+Message$>$ the protobuf msg 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_ae5cabf98fefef92df46d23a71b3f6941}\label{classholosar_1_1ezcom_1_1Message_ae5cabf98fefef92df46d23a71b3f6941}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetString@{GetString}}
+\index{GetString@{GetString}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetString()}{GetString()}}
+{\footnotesize\ttfamily std\+::string holosar\+::ezcom\+::\+Message\+::\+Get\+String (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the string field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+std\+::string the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_af795f0db5dafb20186eedeb185d6f0a0}\label{classholosar_1_1ezcom_1_1Message_af795f0db5dafb20186eedeb185d6f0a0}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetStringSize@{GetStringSize}}
+\index{GetStringSize@{GetStringSize}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetStringSize()}{GetStringSize()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+String\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the string fields 
+
+\begin{DoxyReturn}{返回}
+the size of the string fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a6c1ec7deb8dd17b7d093484ee99f67f2}\label{classholosar_1_1ezcom_1_1Message_a6c1ec7deb8dd17b7d093484ee99f67f2}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetUint32@{GetUint32}}
+\index{GetUint32@{GetUint32}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetUint32()}{GetUint32()}}
+{\footnotesize\ttfamily uint32\+\_\+t holosar\+::ezcom\+::\+Message\+::\+Get\+Uint32 (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the uint32 field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+uint32\+\_\+t the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_aec40b57682335e108a7cf94067c7f698}\label{classholosar_1_1ezcom_1_1Message_aec40b57682335e108a7cf94067c7f698}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetUint32Size@{GetUint32Size}}
+\index{GetUint32Size@{GetUint32Size}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetUint32Size()}{GetUint32Size()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Uint32\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the uint32 fields 
+
+\begin{DoxyReturn}{返回}
+the size of the uint32 fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a0549c6f36caedc7bd9606b4316782634}\label{classholosar_1_1ezcom_1_1Message_a0549c6f36caedc7bd9606b4316782634}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetUint64@{GetUint64}}
+\index{GetUint64@{GetUint64}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetUint64()}{GetUint64()}}
+{\footnotesize\ttfamily uint64\+\_\+t holosar\+::ezcom\+::\+Message\+::\+Get\+Uint64 (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+
+
+get the uint64 field at the index 
+
+
+\begin{DoxyParams}{参数}
+{\em index} & the index of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+uint64\+\_\+t the value of the field 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a19d39ec964e74c766ee888b8b4093023}\label{classholosar_1_1ezcom_1_1Message_a19d39ec964e74c766ee888b8b4093023}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!GetUint64Size@{GetUint64Size}}
+\index{GetUint64Size@{GetUint64Size}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{GetUint64Size()}{GetUint64Size()}}
+{\footnotesize\ttfamily int holosar\+::ezcom\+::\+Message\+::\+Get\+Uint64\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get the size of the uint64 fields 
+
+\begin{DoxyReturn}{返回}
+the size of the uint64 fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Message_a2a21da102ea28524640dd4c01dc30317}\label{classholosar_1_1ezcom_1_1Message_a2a21da102ea28524640dd4c01dc30317}} 
+\index{holosar::ezcom::Message@{holosar::ezcom::Message}!SetMsgId@{SetMsgId}}
+\index{SetMsgId@{SetMsgId}!holosar::ezcom::Message@{holosar::ezcom::Message}}
+\doxysubsubsection{\texorpdfstring{SetMsgId()}{SetMsgId()}}
+{\footnotesize\ttfamily void holosar\+::ezcom\+::\+Message\+::\+Set\+Msg\+Id (\begin{DoxyParamCaption}\item[{const uint64\+\_\+t \&}]{msg\+\_\+id }\end{DoxyParamCaption})}
+
+
+
+set the msg id of the message 
+
+
+\begin{DoxyParams}{参数}
+{\em msg\+\_\+id} & the msg id \\
+\hline
+\end{DoxyParams}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+include/ezcom/\mbox{\hyperlink{message_8h}{message.\+h}}\end{DoxyCompactItemize}

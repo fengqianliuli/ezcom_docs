@@ -1,0 +1,116 @@
+\hypertarget{types_8h}{}\doxysection{include/ezcom/types.h 文件参考}
+\label{types_8h}\index{include/ezcom/types.h@{include/ezcom/types.h}}
+
+
+declare the common types  
+
+
+此图展示该文件直接或间接的被哪些文件引用了\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{types_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{枚举}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{types_8h_a2f0b33e8bad23d94460d71485799a19b}{holosar\+::ezcom\+::\+Node\+Type}} \{ {\bfseries k\+Client} = 0, 
+{\bfseries k\+Server} = 1, 
+{\bfseries k\+Publisher} = 2, 
+{\bfseries k\+Subscriber} = 3
+ \}
+\begin{DoxyCompactList}\small\item\em declare the node type \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{types_8h_aec1f5efcf125a58797b22c131a61f319}{holosar\+::ezcom\+::\+Comm\+Mode}} \{ {\bfseries k\+Req\+Rep} = 0, 
+{\bfseries k\+Pub\+Sub} = 1
+ \}
+\begin{DoxyCompactList}\small\item\em declare the communication mode \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{holosar\+::ezcom\+::\+Transport\+Type}} \{ {\bfseries holosar\+::ezcom\+::\+Transport\+Type\+::k\+Zmq\+Inproc} = 0, 
+{\bfseries k\+Zmq\+Ipc} = 1, 
+{\bfseries k\+Zmq\+Tcp} = 2
+ \}
+\begin{DoxyCompactList}\small\item\em declare the transport type \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{types_8h_a78247e4c35fb0cc4ec1b92d1b5d74a98}\label{types_8h_a78247e4c35fb0cc4ec1b92d1b5d74a98}} 
+enum \mbox{\hyperlink{types_8h_a78247e4c35fb0cc4ec1b92d1b5d74a98}{holosar\+::ezcom\+::\+Connection\+Event}} \{ {\bfseries k\+Connected} = 0, 
+{\bfseries k\+Disconnected} = 1
+ \}
+\begin{DoxyCompactList}\small\item\em declare the connection event only used for client and server \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{types_8h_a3b377ba0906bd7c4ed14b4c255d4d3cb}{holosar\+::ezcom\+::\+Result\+Type}} \{ \newline
+{\bfseries k\+Success} = 0, 
+{\bfseries k\+Timeout} = 1, 
+{\bfseries k\+Comm\+Error} = 2, 
+{\bfseries k\+Invaild\+Param} = 3, 
+\newline
+{\bfseries k\+Unknown\+Error} = 4
+ \}
+\begin{DoxyCompactList}\small\item\em declare the result type \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{变量}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{types_8h_a990f755d5ca0e0a9963d3f4f807a469c}\label{types_8h_a990f755d5ca0e0a9963d3f4f807a469c}} 
+constexpr int \mbox{\hyperlink{types_8h_a990f755d5ca0e0a9963d3f4f807a469c}{holosar\+::ezcom\+::k\+Zmq\+Rcv\+Timeout}} = 1000
+\begin{DoxyCompactList}\small\item\em The default timeout for zmq receive/send \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{types_8h_a06cfd2f12e8eea831be752650cc67989}\label{types_8h_a06cfd2f12e8eea831be752650cc67989}} 
+constexpr int {\bfseries holosar\+::ezcom\+::k\+Zmq\+Snd\+Timeout} = 1000
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{详细描述}
+declare the common types 
+
+\begin{DoxyAuthor}{作者}
+haotian.\+shi (\href{mailto:shihaotian@holomatic.com}{\texttt{ shihaotian@holomatic.\+com}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{版本}
+0.\+2.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{日期}
+2023-\/07-\/18
+\end{DoxyDate}
+\begin{DoxyCopyright}{版权所有}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{枚举类型说明}
+\mbox{\Hypertarget{types_8h_aec1f5efcf125a58797b22c131a61f319}\label{types_8h_aec1f5efcf125a58797b22c131a61f319}} 
+\index{types.h@{types.h}!CommMode@{CommMode}}
+\index{CommMode@{CommMode}!types.h@{types.h}}
+\doxysubsubsection{\texorpdfstring{CommMode}{CommMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{types_8h_aec1f5efcf125a58797b22c131a61f319}{holosar\+::ezcom\+::\+Comm\+Mode}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+declare the communication mode 
+
+\mbox{\Hypertarget{types_8h_a2f0b33e8bad23d94460d71485799a19b}\label{types_8h_a2f0b33e8bad23d94460d71485799a19b}} 
+\index{types.h@{types.h}!NodeType@{NodeType}}
+\index{NodeType@{NodeType}!types.h@{types.h}}
+\doxysubsubsection{\texorpdfstring{NodeType}{NodeType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{types_8h_a2f0b33e8bad23d94460d71485799a19b}{holosar\+::ezcom\+::\+Node\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+declare the node type 
+
+\mbox{\Hypertarget{types_8h_a3b377ba0906bd7c4ed14b4c255d4d3cb}\label{types_8h_a3b377ba0906bd7c4ed14b4c255d4d3cb}} 
+\index{types.h@{types.h}!ResultType@{ResultType}}
+\index{ResultType@{ResultType}!types.h@{types.h}}
+\doxysubsubsection{\texorpdfstring{ResultType}{ResultType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{types_8h_a3b377ba0906bd7c4ed14b4c255d4d3cb}{holosar\+::ezcom\+::\+Result\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+declare the result type 
+
+\mbox{\Hypertarget{types_8h_a5ea0994336f06c9c480552a814f3068c}\label{types_8h_a5ea0994336f06c9c480552a814f3068c}} 
+\index{types.h@{types.h}!TransportType@{TransportType}}
+\index{TransportType@{TransportType}!types.h@{types.h}}
+\doxysubsubsection{\texorpdfstring{TransportType}{TransportType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{holosar\+::ezcom\+::\+Transport\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+declare the transport type 
+

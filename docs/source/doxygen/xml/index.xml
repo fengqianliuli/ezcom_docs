@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classholosar_1_1ezcom_1_1AlreadyDoneException" kind="class"><name>holosar::ezcom::AlreadyDoneException</name>
+    <member refid="classholosar_1_1ezcom_1_1AlreadyDoneException_1aafc05278ae50805c2cfca8befa0b62fa" kind="function"><name>AlreadyDoneException</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Client" kind="class"><name>holosar::ezcom::Client</name>
+    <member refid="classholosar_1_1ezcom_1_1Client_1af3b38e31846d9c5b4d88355b629a4eb5" kind="function"><name>Client</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Client_1a3cda66046f39dc68460f18843ac68f46" kind="function"><name>~Client</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Client_1aae5f97c093cebc83b7617298314c8dbc" kind="function"><name>Connect</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Client_1a369bd24d965da904f48884b18e97a0b8" kind="function"><name>SyncRequest</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Client_1a125a905b168d47b190d60b173b976f16" kind="function"><name>AsyncRequest</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Exception" kind="class"><name>holosar::ezcom::Exception</name>
+    <member refid="classholosar_1_1ezcom_1_1Exception_1a243fddb4d9723f0f493410460b13f38c" kind="function"><name>Exception</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1InvalidParamException" kind="class"><name>holosar::ezcom::InvalidParamException</name>
+    <member refid="classholosar_1_1ezcom_1_1InvalidParamException_1a09c14d318f1761f5dbc6d174a5751606" kind="function"><name>InvalidParamException</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Message" kind="class"><name>holosar::ezcom::Message</name>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a1940d6458bfa1bdfed33f36afd340409" kind="variable"><name>proto_msg_</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a4772f4fb49b46e48b447494b5cb77bbe" kind="function"><name>Message</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a31e17ee9cb9a8fbf678c91dd25bcf74f" kind="function"><name>~Message</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a68ecca96e58b42448845f91e5d0c15b5" kind="function"><name>Message</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a29153e0277b4b03a3b18d31185b439c2" kind="function"><name>operator=</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a0217a1f7742d8c1e360fdab24db6f958" kind="function"><name>Message</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a9211ce01911ceb4b57a1bd7a2e94813d" kind="function"><name>operator=</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a37b4764c182c9cd9ec312d0705adfb66" kind="function"><name>GetMsgId</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a2a21da102ea28524640dd4c01dc30317" kind="function"><name>SetMsgId</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a7a1decc9f337de8732aed6a9848fe19c" kind="function"><name>GetProtobufMessage</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1ac56d200ab0d06e357988d76955111825" kind="function"><name>AddInt32</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a3bfb1a34dc347dfe2248ec90cefe931c" kind="function"><name>AddInt64</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a95de2fd5eeb4295bcbc3dbebd8c64fea" kind="function"><name>AddUint32</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1ab16dd3b54da09c3612cdba571811190c" kind="function"><name>AddUint64</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1afc96373a29b9d05b4f5efa74efa16b61" kind="function"><name>AddFloat</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a0ba418ea5d8fe3aa6dfb973eea9ee17f" kind="function"><name>AddDouble</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a87ffdb32f5b52e3ea66ccb1986358527" kind="function"><name>AddBool</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1af561efe3c08bbc2785747fb4a8c0b52b" kind="function"><name>AddString</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1abc57c60c0ff0c7e1a05ff314d9ea7247" kind="function"><name>AddBytes</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1ad5339fae46c13db763fc96aed860cb42" kind="function"><name>CleanInt32</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a2ed211ab1790f898749b005a64461ab0" kind="function"><name>CleanInt64</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a2bca5db0865b9e0922d58a72c932eaa6" kind="function"><name>CleanUint32</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a7b1f39c90d98101c4195059b8e313a5c" kind="function"><name>CleanUint64</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1aae0e65388e269e174b7e003f741a693a" kind="function"><name>CleanFloat</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a987b04b872ca4a9a68d8b46b2a954e4e" kind="function"><name>CleanDouble</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a5d5542e1c7ae896de0763de785176f09" kind="function"><name>CleanBool</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1af78241f0bb4df0b000970d2a328ef17e" kind="function"><name>CleanString</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1abe0aa213f1efd8964a053fc60b277eaf" kind="function"><name>CleanBytes</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a45cd888a2983076bf7d3e4a2e4c76d71" kind="function"><name>CleanAll</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1ae4a21749c551093a7a20aaf28671efbc" kind="function"><name>GetInt32Size</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a3f4e4074b9e4fd209ebbce007307d5ec" kind="function"><name>GetInt64Size</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1aec40b57682335e108a7cf94067c7f698" kind="function"><name>GetUint32Size</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a19d39ec964e74c766ee888b8b4093023" kind="function"><name>GetUint64Size</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a239b42d27d09666a399e8a6e0ee8214a" kind="function"><name>GetFloatSize</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a8dd584c220843e7244a52b7614759ad8" kind="function"><name>GetDoubleSize</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a64912caa1b369f0da1e0a8464d8caad4" kind="function"><name>GetBoolSize</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1af795f0db5dafb20186eedeb185d6f0a0" kind="function"><name>GetStringSize</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1abb617eb8b6dd25d682208bd4295e80e8" kind="function"><name>GetBytesSize</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a57f7cf49518bac97339112334d7f4e29" kind="function"><name>GetInt32</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a0e79b49084647c98ba5003828aa6a303" kind="function"><name>GetInt64</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a6c1ec7deb8dd17b7d093484ee99f67f2" kind="function"><name>GetUint32</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a0549c6f36caedc7bd9606b4316782634" kind="function"><name>GetUint64</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a7fd83f4c4ec43b4c4e2e7f4e9259c197" kind="function"><name>GetFloat</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a240447e1f7a52f62faa897b45219dbbc" kind="function"><name>GetDouble</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a52410eee183bc7aade38e0d0e48665fd" kind="function"><name>GetBool</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1ae5cabf98fefef92df46d23a71b3f6941" kind="function"><name>GetString</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Message_1a167eca76d91d750177f57ed16766bb71" kind="function"><name>GetBytes</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Node" kind="class"><name>holosar::ezcom::Node</name>
+    <member refid="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" kind="variable"><name>node_type_</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" kind="variable"><name>comm_mode_</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" kind="variable"><name>transport_type_</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" kind="function"><name>Node</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" kind="function"><name>~Node</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1NodeFactory" kind="class"><name>holosar::ezcom::NodeFactory</name>
+    <member refid="classholosar_1_1ezcom_1_1NodeFactory_1aef2ee7c83353c3dfd35ab1a5382ebecd" kind="function"><name>CreateClient</name></member>
+    <member refid="classholosar_1_1ezcom_1_1NodeFactory_1a95895805e11291e87f81f532bdb5bf0f" kind="function"><name>CreateServer</name></member>
+    <member refid="classholosar_1_1ezcom_1_1NodeFactory_1ac5123f27f62b611e6201a1e42ed5ae81" kind="function"><name>CreatePublisher</name></member>
+    <member refid="classholosar_1_1ezcom_1_1NodeFactory_1a02cf5b587618230807bb8968bc8477ff" kind="function"><name>CreateSubscriber</name></member>
+    <member refid="classholosar_1_1ezcom_1_1NodeFactory_1ae4a291847ae4799bbb40b4d69355764e" kind="function"><name>CreateNode</name></member>
+    <member refid="classholosar_1_1ezcom_1_1NodeFactory_1a635257bf3a6143fa01a213d3ed4df890" kind="function"><name>CreateZmqInprocNode</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Publisher" kind="class"><name>holosar::ezcom::Publisher</name>
+    <member refid="classholosar_1_1ezcom_1_1Publisher_1aeeb59a505a4d624096e735f56a960720" kind="function"><name>Publisher</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Publisher_1aef521a9e1a1967ef25da8c9e203ccdd1" kind="function"><name>~Publisher</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Publisher_1a662c08a1720cb4d231fa3a94f59d6116" kind="function"><name>Bind</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Publisher_1a37ba8290fd863539ad00311cf414ca32" kind="function"><name>Publish</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1ResourceException" kind="class"><name>holosar::ezcom::ResourceException</name>
+    <member refid="classholosar_1_1ezcom_1_1ResourceException_1a9a01c40bc41019c300b12ade681ecb29" kind="function"><name>ResourceException</name></member>
+  </compound>
+  <compound refid="structholosar_1_1ezcom_1_1Result" kind="struct"><name>holosar::ezcom::Result</name>
+    <member refid="structholosar_1_1ezcom_1_1Result_1ad97d861b22d67cd257e14a2d6e610b66" kind="variable"><name>res_type</name></member>
+    <member refid="structholosar_1_1ezcom_1_1Result_1ac8fd9ca62dcf2921749d458cdaf66027" kind="variable"><name>rep_message</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Server" kind="class"><name>holosar::ezcom::Server</name>
+    <member refid="classholosar_1_1ezcom_1_1Server_1a1f4b06a3d3ae9d8d2251b5037d62e37c" kind="function"><name>Server</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Server_1a9b0cd157e1ab4860ded06a3c579659c7" kind="function"><name>~Server</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Server_1a684325f5184793f0ff5d0fa831bca1d5" kind="function"><name>Bind</name></member>
+  </compound>
+  <compound refid="classholosar_1_1ezcom_1_1Subscriber" kind="class"><name>holosar::ezcom::Subscriber</name>
+    <member refid="classholosar_1_1ezcom_1_1Subscriber_1a762c7d4d560e2039f23ebe0e6f0b32a8" kind="function"><name>Subscriber</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Subscriber_1a6a8b553b2a2af671fff42a6f50544ae7" kind="function"><name>~Subscriber</name></member>
+    <member refid="classholosar_1_1ezcom_1_1Subscriber_1a83d906f91fdefbc35436333a8806b0ad" kind="function"><name>Subscribe</name></member>
+  </compound>
+  <compound refid="namespaceholosar" kind="namespace"><name>holosar</name>
+  </compound>
+  <compound refid="namespaceholosar_1_1ezcom" kind="namespace"><name>holosar::ezcom</name>
+    <member refid="types_8h_1a2f0b33e8bad23d94460d71485799a19b" kind="enum"><name>NodeType</name></member>
+    <member refid="types_8h_1a2f0b33e8bad23d94460d71485799a19ba5e096345ff5df364fa85084d1bb1aa70" kind="enumvalue"><name>kClient</name></member>
+    <member refid="types_8h_1a2f0b33e8bad23d94460d71485799a19ba715c76514601e8aea81451c7edb84c8e" kind="enumvalue"><name>kServer</name></member>
+    <member refid="types_8h_1a2f0b33e8bad23d94460d71485799a19ba655cdd7fe7c770ace5356015b0d92f0e" kind="enumvalue"><name>kPublisher</name></member>
+    <member refid="types_8h_1a2f0b33e8bad23d94460d71485799a19ba14eea8cdd6da620d327ae16cb538bd21" kind="enumvalue"><name>kSubscriber</name></member>
+    <member refid="types_8h_1aec1f5efcf125a58797b22c131a61f319" kind="enum"><name>CommMode</name></member>
+    <member refid="types_8h_1aec1f5efcf125a58797b22c131a61f319a1be9e91982c39098761ef6f29aa2c79d" kind="enumvalue"><name>kReqRep</name></member>
+    <member refid="types_8h_1aec1f5efcf125a58797b22c131a61f319af0e02742872225b1b9d970da4388ed7d" kind="enumvalue"><name>kPubSub</name></member>
+    <member refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kind="enum"><name>TransportType</name></member>
+    <member refid="types_8h_1a5ea0994336f06c9c480552a814f3068ca6b2b48cbb47ad1e6a7e3dbe543226a7d" kind="enumvalue"><name>kZmqInproc</name></member>
+    <member refid="types_8h_1a5ea0994336f06c9c480552a814f3068ca615aad9ab06b5dcbb7a17d040a8cf566" kind="enumvalue"><name>kZmqIpc</name></member>
+    <member refid="types_8h_1a5ea0994336f06c9c480552a814f3068cad2aa8d2b179aaba1cda0547ff05ad7a7" kind="enumvalue"><name>kZmqTcp</name></member>
+    <member refid="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98" kind="enum"><name>ConnectionEvent</name></member>
+    <member refid="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98a485b505a72a57b16c8dd36bfc17c98c0" kind="enumvalue"><name>kConnected</name></member>
+    <member refid="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98af469e2a5b05d423dd49764004270f117" kind="enumvalue"><name>kDisconnected</name></member>
+    <member refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cb" kind="enum"><name>ResultType</name></member>
+    <member refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba8c632159fa131f09d04f94e3cbcd8782" kind="enumvalue"><name>kSuccess</name></member>
+    <member refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba7f27861ff1d3f550c6aa77150d7edabd" kind="enumvalue"><name>kTimeout</name></member>
+    <member refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba8d8e12e70249ac1eb7f27affaff59ca9" kind="enumvalue"><name>kCommError</name></member>
+    <member refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba22dd83d978bd7a21e19216e7ab8d3a29" kind="enumvalue"><name>kInvaildParam</name></member>
+    <member refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba4366541ea8a34268abc8b24f19fcefdd" kind="enumvalue"><name>kUnknownError</name></member>
+    <member refid="client_8h_1a49474879a9346bdab75247338d069589" kind="typedef"><name>ConnectionCallback</name></member>
+    <member refid="client_8h_1a5660f09dcaaa280fbce4d827a91ea987" kind="typedef"><name>ResultCallback</name></member>
+    <member refid="server_8h_1aaf40d65ddb9384ea465106c02730b076" kind="typedef"><name>MessageHandler</name></member>
+    <member refid="subscriber_8h_1a3fbde2da2e6da6f6b5be17370028c98b" kind="typedef"><name>MsgCallback</name></member>
+    <member refid="types_8h_1a990f755d5ca0e0a9963d3f4f807a469c" kind="variable"><name>kZmqRcvTimeout</name></member>
+    <member refid="types_8h_1a06cfd2f12e8eea831be752650cc67989" kind="variable"><name>kZmqSndTimeout</name></member>
+  </compound>
+  <compound refid="client_8h" kind="file"><name>client.h</name>
+  </compound>
+  <compound refid="exception_8h" kind="file"><name>exception.h</name>
+  </compound>
+  <compound refid="message_8h" kind="file"><name>message.h</name>
+  </compound>
+  <compound refid="node_8h" kind="file"><name>node.h</name>
+  </compound>
+  <compound refid="node__factory_8h" kind="file"><name>node_factory.h</name>
+  </compound>
+  <compound refid="publisher_8h" kind="file"><name>publisher.h</name>
+  </compound>
+  <compound refid="server_8h" kind="file"><name>server.h</name>
+  </compound>
+  <compound refid="subscriber_8h" kind="file"><name>subscriber.h</name>
+  </compound>
+  <compound refid="types_8h" kind="file"><name>types.h</name>
+  </compound>
+  <compound refid="dir_36b4defe296fa1d06c3a2b0c8246958e" kind="dir"><name>include/ezcom</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>

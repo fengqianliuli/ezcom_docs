@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1AlreadyDoneException" kind="class" language="C++" prot="public">
+    <compoundname>holosar::ezcom::AlreadyDoneException</compoundname>
+    <basecompoundref refid="classholosar_1_1ezcom_1_1Exception" prot="public" virt="non-virtual">holosar::ezcom::Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1AlreadyDoneException_1aafc05278ae50805c2cfca8befa0b62fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::AlreadyDoneException::AlreadyDoneException</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>AlreadyDoneException</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/exception.h" line="41" column="3" bodyfile="include/ezcom/exception.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>holosar::ezcom::AlreadyDoneException</label>
+        <link refid="classholosar_1_1ezcom_1_1AlreadyDoneException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::runtime_error</label>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Exception</label>
+        <link refid="classholosar_1_1ezcom_1_1Exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>holosar::ezcom::AlreadyDoneException</label>
+        <link refid="classholosar_1_1ezcom_1_1AlreadyDoneException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::runtime_error</label>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Exception</label>
+        <link refid="classholosar_1_1ezcom_1_1Exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/exception.h" line="39" column="44" bodyfile="include/ezcom/exception.h" bodystart="39" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1AlreadyDoneException_1aafc05278ae50805c2cfca8befa0b62fa" prot="public" virt="non-virtual"><scope>holosar::ezcom::AlreadyDoneException</scope><name>AlreadyDoneException</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Exception_1a243fddb4d9723f0f493410460b13f38c" prot="public" virt="non-virtual"><scope>holosar::ezcom::AlreadyDoneException</scope><name>Exception</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

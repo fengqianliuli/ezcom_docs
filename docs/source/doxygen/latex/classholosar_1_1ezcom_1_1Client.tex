@@ -1,0 +1,94 @@
+\hypertarget{classholosar_1_1ezcom_1_1Client}{}\doxysection{holosar\+::ezcom\+::Client类 参考}
+\label{classholosar_1_1ezcom_1_1Client}\index{holosar::ezcom::Client@{holosar::ezcom::Client}}
+
+
+类 holosar\+::ezcom\+::Client 继承关系图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classholosar_1_1ezcom_1_1Client__inherit__graph}
+\end{center}
+\end{figure}
+
+
+holosar\+::ezcom\+::Client 的协作图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classholosar_1_1ezcom_1_1Client__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client_aae5f97c093cebc83b7617298314c8dbc}{Connect}} (const std\+::string \&addr, const \mbox{\hyperlink{client_8h_a49474879a9346bdab75247338d069589}{Connection\+Callback}} \&conn\+\_\+cb=nullptr)=0
+\begin{DoxyCompactList}\small\item\em client connect to a address and set the connection callback \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{structholosar_1_1ezcom_1_1Result}{Result}} \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client_a369bd24d965da904f48884b18e97a0b8}{Sync\+Request}} (const std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} $>$ \&req\+\_\+message, int timeout\+\_\+ms=-\/1)=0
+\begin{DoxyCompactList}\small\item\em client sync request to server \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client_a125a905b168d47b190d60b173b976f16}{Async\+Request}} (const std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} $>$ \&req\+\_\+message, const \mbox{\hyperlink{client_8h_a5660f09dcaaa280fbce4d827a91ea987}{Result\+Callback}} \&result\+\_\+cb, int timeout\+\_\+ms=-\/1)=0
+\begin{DoxyCompactList}\small\item\em client async request to server \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{额外继承的成员函数}
+
+
+\doxysubsection{成员函数说明}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Client_a125a905b168d47b190d60b173b976f16}\label{classholosar_1_1ezcom_1_1Client_a125a905b168d47b190d60b173b976f16}} 
+\index{holosar::ezcom::Client@{holosar::ezcom::Client}!AsyncRequest@{AsyncRequest}}
+\index{AsyncRequest@{AsyncRequest}!holosar::ezcom::Client@{holosar::ezcom::Client}}
+\doxysubsubsection{\texorpdfstring{AsyncRequest()}{AsyncRequest()}}
+{\footnotesize\ttfamily virtual void holosar\+::ezcom\+::\+Client\+::\+Async\+Request (\begin{DoxyParamCaption}\item[{const std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} $>$ \&}]{req\+\_\+message,  }\item[{const \mbox{\hyperlink{client_8h_a5660f09dcaaa280fbce4d827a91ea987}{Result\+Callback}} \&}]{result\+\_\+cb,  }\item[{int}]{timeout\+\_\+ms = {\ttfamily -\/1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+client async request to server 
+
+
+\begin{DoxyParams}{参数}
+{\em req\+\_\+message} & request message \\
+\hline
+{\em result\+\_\+cb} & result callback \mbox{\hyperlink{}{timeout\+\_\+ms timeout in ms, default is -\/1, which means no timeout }}\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Client_aae5f97c093cebc83b7617298314c8dbc}\label{classholosar_1_1ezcom_1_1Client_aae5f97c093cebc83b7617298314c8dbc}} 
+\index{holosar::ezcom::Client@{holosar::ezcom::Client}!Connect@{Connect}}
+\index{Connect@{Connect}!holosar::ezcom::Client@{holosar::ezcom::Client}}
+\doxysubsubsection{\texorpdfstring{Connect()}{Connect()}}
+{\footnotesize\ttfamily virtual void holosar\+::ezcom\+::\+Client\+::\+Connect (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{addr,  }\item[{const \mbox{\hyperlink{client_8h_a49474879a9346bdab75247338d069589}{Connection\+Callback}} \&}]{conn\+\_\+cb = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+client connect to a address and set the connection callback 
+
+
+\begin{DoxyParams}{参数}
+{\em addr} & address of the server \\
+\hline
+{\em conn\+\_\+cb} & connection callback \mbox{\hyperlink{}{, default is nullptr }}\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1Client_a369bd24d965da904f48884b18e97a0b8}\label{classholosar_1_1ezcom_1_1Client_a369bd24d965da904f48884b18e97a0b8}} 
+\index{holosar::ezcom::Client@{holosar::ezcom::Client}!SyncRequest@{SyncRequest}}
+\index{SyncRequest@{SyncRequest}!holosar::ezcom::Client@{holosar::ezcom::Client}}
+\doxysubsubsection{\texorpdfstring{SyncRequest()}{SyncRequest()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{structholosar_1_1ezcom_1_1Result}{Result}} holosar\+::ezcom\+::\+Client\+::\+Sync\+Request (\begin{DoxyParamCaption}\item[{const std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Message}{Message}} $>$ \&}]{req\+\_\+message,  }\item[{int}]{timeout\+\_\+ms = {\ttfamily -\/1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+client sync request to server 
+
+
+\begin{DoxyParams}{参数}
+{\em req\+\_\+message} & request message \\
+\hline
+{\em timeout\+\_\+ms} & timeout in ms, default is -\/1, which means no timeout \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+\mbox{\hyperlink{structholosar_1_1ezcom_1_1Result}{Result}}, which contains the result type and response message 
+\end{DoxyReturn}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+include/ezcom/\mbox{\hyperlink{client_8h}{client.\+h}}\end{DoxyCompactItemize}

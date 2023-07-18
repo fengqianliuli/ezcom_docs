@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1ResourceException" kind="class" language="C++" prot="public">
+    <compoundname>holosar::ezcom::ResourceException</compoundname>
+    <basecompoundref refid="classholosar_1_1ezcom_1_1Exception" prot="public" virt="non-virtual">holosar::ezcom::Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1ResourceException_1a9a01c40bc41019c300b12ade681ecb29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::ResourceException::ResourceException</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>ResourceException</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/exception.h" line="36" column="3" bodyfile="include/ezcom/exception.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>std::runtime_error</label>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Exception</label>
+        <link refid="classholosar_1_1ezcom_1_1Exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::ResourceException</label>
+        <link refid="classholosar_1_1ezcom_1_1ResourceException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>std::runtime_error</label>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Exception</label>
+        <link refid="classholosar_1_1ezcom_1_1Exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::ResourceException</label>
+        <link refid="classholosar_1_1ezcom_1_1ResourceException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/exception.h" line="34" column="41" bodyfile="include/ezcom/exception.h" bodystart="34" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Exception_1a243fddb4d9723f0f493410460b13f38c" prot="public" virt="non-virtual"><scope>holosar::ezcom::ResourceException</scope><name>Exception</name></member>
+      <member refid="classholosar_1_1ezcom_1_1ResourceException_1a9a01c40bc41019c300b12ade681ecb29" prot="public" virt="non-virtual"><scope>holosar::ezcom::ResourceException</scope><name>ResourceException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

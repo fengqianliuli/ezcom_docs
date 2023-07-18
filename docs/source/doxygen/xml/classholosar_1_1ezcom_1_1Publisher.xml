@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Publisher" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>holosar::ezcom::Publisher</compoundname>
+    <basecompoundref refid="classholosar_1_1ezcom_1_1Node" prot="public" virt="non-virtual">holosar::ezcom::Node</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Publisher_1aeeb59a505a4d624096e735f56a960720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Publisher::Publisher</definition>
+        <argsstring>()=default</argsstring>
+        <name>Publisher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/publisher.h" line="24" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Publisher_1aef521a9e1a1967ef25da8c9e203ccdd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual holosar::ezcom::Publisher::~Publisher</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Publisher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/publisher.h" line="25" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Publisher_1a662c08a1720cb4d231fa3a94f59d6116" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void holosar::ezcom::Publisher::Bind</definition>
+        <argsstring>(const std::string &amp;addr)=0</argsstring>
+        <name>Bind</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+<para>publisher bind to a address </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/publisher.h" line="31" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Publisher_1a37ba8290fd863539ad00311cf414ca32" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void holosar::ezcom::Publisher::Publish</definition>
+        <argsstring>(const std::shared_ptr&lt; Message &gt; &amp;msg, const std::string &amp;topic=&quot;default_topic&quot;)=0</argsstring>
+        <name>Publish</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt; &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>topic</declname>
+          <defval>&quot;default_topic&quot;</defval>
+        </param>
+        <briefdescription>
+<para>publish a message to a topic </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">topic topic name, default is &quot;default_topic&quot; </ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/publisher.h" line="38" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::Publisher</label>
+        <link refid="classholosar_1_1ezcom_1_1Publisher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::Publisher</label>
+        <link refid="classholosar_1_1ezcom_1_1Publisher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/publisher.h" line="22" column="28" bodyfile="include/ezcom/publisher.h" bodystart="22" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Publisher_1a662c08a1720cb4d231fa3a94f59d6116" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Publisher</scope><name>Bind</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Publisher</scope><name>comm_mode_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" prot="public" virt="non-virtual"><scope>holosar::ezcom::Publisher</scope><name>Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Publisher</scope><name>node_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Publisher_1a37ba8290fd863539ad00311cf414ca32" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Publisher</scope><name>Publish</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Publisher_1aeeb59a505a4d624096e735f56a960720" prot="public" virt="non-virtual"><scope>holosar::ezcom::Publisher</scope><name>Publisher</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Publisher</scope><name>transport_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" prot="public" virt="virtual"><scope>holosar::ezcom::Publisher</scope><name>~Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Publisher_1aef521a9e1a1967ef25da8c9e203ccdd1" prot="public" virt="virtual"><scope>holosar::ezcom::Publisher</scope><name>~Publisher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

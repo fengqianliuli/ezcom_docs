@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Message" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>holosar::ezcom::Message</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classholosar_1_1ezcom_1_1Message_1a1940d6458bfa1bdfed33f36afd340409" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; ProtobufMessage &gt;</type>
+        <definition>std::shared_ptr&lt;ProtobufMessage&gt; holosar::ezcom::Message::proto_msg_</definition>
+        <argsstring></argsstring>
+        <name>proto_msg_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="247" column="19" bodyfile="include/ezcom/message.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a4772f4fb49b46e48b447494b5cb77bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Message::Message</definition>
+        <argsstring>()</argsstring>
+        <name>Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="24" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a31e17ee9cb9a8fbf678c91dd25bcf74f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Message::~Message</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="25" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a68ecca96e58b42448845f91e5d0c15b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Message::Message</definition>
+        <argsstring>(const Message &amp;)=delete</argsstring>
+        <name>Message</name>
+        <param>
+          <type>const <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="26" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a29153e0277b4b03a3b18d31185b439c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &amp;</type>
+        <definition>Message&amp; holosar::ezcom::Message::operator=</definition>
+        <argsstring>(const Message &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="27" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a0217a1f7742d8c1e360fdab24db6f958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Message::Message</definition>
+        <argsstring>(Message &amp;&amp;)=delete</argsstring>
+        <name>Message</name>
+        <param>
+          <type><ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="28" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a9211ce01911ceb4b57a1bd7a2e94813d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &amp;</type>
+        <definition>Message&amp; holosar::ezcom::Message::operator=</definition>
+        <argsstring>(Message &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="29" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a37b4764c182c9cd9ec312d0705adfb66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t holosar::ezcom::Message::GetMsgId</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMsgId</name>
+        <briefdescription>
+<para>get the msg id of the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>uint64_t the msg id </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="36" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a2a21da102ea28524640dd4c01dc30317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::SetMsgId</definition>
+        <argsstring>(const uint64_t &amp;msg_id)</argsstring>
+        <name>SetMsgId</name>
+        <param>
+          <type>const uint64_t &amp;</type>
+          <declname>msg_id</declname>
+        </param>
+        <briefdescription>
+<para>set the msg id of the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the msg id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="42" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a7a1decc9f337de8732aed6a9848fe19c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; ProtobufMessage &gt;</type>
+        <definition>std::shared_ptr&lt;ProtobufMessage&gt; holosar::ezcom::Message::GetProtobufMessage</definition>
+        <argsstring>() const</argsstring>
+        <name>GetProtobufMessage</name>
+        <briefdescription>
+<para>get the protobuf msg of the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::shared_ptr&lt;ProtobufMessage&gt; the protobuf msg </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="48" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1ac56d200ab0d06e357988d76955111825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddInt32</definition>
+        <argsstring>(const int32_t &amp;value)</argsstring>
+        <name>AddInt32</name>
+        <param>
+          <type>const int32_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a int32 field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the int32 field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="55" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a3bfb1a34dc347dfe2248ec90cefe931c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddInt64</definition>
+        <argsstring>(const int64_t &amp;value)</argsstring>
+        <name>AddInt64</name>
+        <param>
+          <type>const int64_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a int64 field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the int64 field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="61" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a95de2fd5eeb4295bcbc3dbebd8c64fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddUint32</definition>
+        <argsstring>(const uint32_t &amp;value)</argsstring>
+        <name>AddUint32</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a uint32 field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the uint32 field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="67" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1ab16dd3b54da09c3612cdba571811190c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddUint64</definition>
+        <argsstring>(const uint64_t &amp;value)</argsstring>
+        <name>AddUint64</name>
+        <param>
+          <type>const uint64_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a uint64 field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the uint64 field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="73" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1afc96373a29b9d05b4f5efa74efa16b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddFloat</definition>
+        <argsstring>(const float &amp;value)</argsstring>
+        <name>AddFloat</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a float field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the float field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="79" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a0ba418ea5d8fe3aa6dfb973eea9ee17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddDouble</definition>
+        <argsstring>(const double &amp;value)</argsstring>
+        <name>AddDouble</name>
+        <param>
+          <type>const double &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a double field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the double field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="85" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a87ffdb32f5b52e3ea66ccb1986358527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddBool</definition>
+        <argsstring>(const bool &amp;value)</argsstring>
+        <name>AddBool</name>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a bool field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the bool field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="91" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1af561efe3c08bbc2785747fb4a8c0b52b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddString</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>AddString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>add a string field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the string field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="97" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1abc57c60c0ff0c7e1a05ff314d9ea7247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::AddBytes</definition>
+        <argsstring>(const void *value, size_t size)</argsstring>
+        <name>AddBytes</name>
+        <param>
+          <type>const void *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>add a bytes field to the message </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the point of the bytes field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the size of the bytes field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="104" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1ad5339fae46c13db763fc96aed860cb42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanInt32</definition>
+        <argsstring>()</argsstring>
+        <name>CleanInt32</name>
+        <briefdescription>
+<para>clean all the int32 fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="107" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a2ed211ab1790f898749b005a64461ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanInt64</definition>
+        <argsstring>()</argsstring>
+        <name>CleanInt64</name>
+        <briefdescription>
+<para>clean all the int64 fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="109" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a2bca5db0865b9e0922d58a72c932eaa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanUint32</definition>
+        <argsstring>()</argsstring>
+        <name>CleanUint32</name>
+        <briefdescription>
+<para>clean all the uint32 fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="111" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a7b1f39c90d98101c4195059b8e313a5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanUint64</definition>
+        <argsstring>()</argsstring>
+        <name>CleanUint64</name>
+        <briefdescription>
+<para>clean all the uint64 fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="113" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1aae0e65388e269e174b7e003f741a693a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanFloat</definition>
+        <argsstring>()</argsstring>
+        <name>CleanFloat</name>
+        <briefdescription>
+<para>clean all the float fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="115" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a987b04b872ca4a9a68d8b46b2a954e4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanDouble</definition>
+        <argsstring>()</argsstring>
+        <name>CleanDouble</name>
+        <briefdescription>
+<para>clean all the double fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="117" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a5d5542e1c7ae896de0763de785176f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanBool</definition>
+        <argsstring>()</argsstring>
+        <name>CleanBool</name>
+        <briefdescription>
+<para>clean all the bool fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="119" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1af78241f0bb4df0b000970d2a328ef17e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanString</definition>
+        <argsstring>()</argsstring>
+        <name>CleanString</name>
+        <briefdescription>
+<para>clean all the string fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="121" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1abe0aa213f1efd8964a053fc60b277eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanBytes</definition>
+        <argsstring>()</argsstring>
+        <name>CleanBytes</name>
+        <briefdescription>
+<para>clean all the bytes fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="123" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a45cd888a2983076bf7d3e4a2e4c76d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void holosar::ezcom::Message::CleanAll</definition>
+        <argsstring>()</argsstring>
+        <name>CleanAll</name>
+        <briefdescription>
+<para>clean all the fields </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="125" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1ae4a21749c551093a7a20aaf28671efbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetInt32Size</definition>
+        <argsstring>() const</argsstring>
+        <name>GetInt32Size</name>
+        <briefdescription>
+<para>get the size of the int32 fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the int32 fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="132" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a3f4e4074b9e4fd209ebbce007307d5ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetInt64Size</definition>
+        <argsstring>() const</argsstring>
+        <name>GetInt64Size</name>
+        <briefdescription>
+<para>get the size of the int64 fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the int64 fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="138" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1aec40b57682335e108a7cf94067c7f698" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetUint32Size</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUint32Size</name>
+        <briefdescription>
+<para>get the size of the uint32 fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the uint32 fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="144" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a19d39ec964e74c766ee888b8b4093023" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetUint64Size</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUint64Size</name>
+        <briefdescription>
+<para>get the size of the uint64 fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the uint64 fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="150" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a239b42d27d09666a399e8a6e0ee8214a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetFloatSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFloatSize</name>
+        <briefdescription>
+<para>get the size of the float fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the float fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="156" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a8dd584c220843e7244a52b7614759ad8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetDoubleSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDoubleSize</name>
+        <briefdescription>
+<para>get the size of the double fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the double fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="162" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a64912caa1b369f0da1e0a8464d8caad4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetBoolSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBoolSize</name>
+        <briefdescription>
+<para>get the size of the bool fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the bool fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="168" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1af795f0db5dafb20186eedeb185d6f0a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetStringSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStringSize</name>
+        <briefdescription>
+<para>get the size of the string fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the string fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="174" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1abb617eb8b6dd25d682208bd4295e80e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int holosar::ezcom::Message::GetBytesSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBytesSize</name>
+        <briefdescription>
+<para>get the size of the bytes fields </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the size of the bytes fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="180" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a57f7cf49518bac97339112334d7f4e29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t holosar::ezcom::Message::GetInt32</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetInt32</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the int32 field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int32_t the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="188" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a0e79b49084647c98ba5003828aa6a303" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t holosar::ezcom::Message::GetInt64</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetInt64</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the int64 field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int64_t the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="195" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a6c1ec7deb8dd17b7d093484ee99f67f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t holosar::ezcom::Message::GetUint32</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetUint32</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the uint32 field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint32_t the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="202" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a0549c6f36caedc7bd9606b4316782634" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t holosar::ezcom::Message::GetUint64</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetUint64</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the uint64 field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint64_t the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="209" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a7fd83f4c4ec43b4c4e2e7f4e9259c197" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float holosar::ezcom::Message::GetFloat</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetFloat</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the float field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>float the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="216" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a240447e1f7a52f62faa897b45219dbbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double holosar::ezcom::Message::GetDouble</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetDouble</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the double field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>double the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="223" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a52410eee183bc7aade38e0d0e48665fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool holosar::ezcom::Message::GetBool</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetBool</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the bool field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="230" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1ae5cabf98fefef92df46d23a71b3f6941" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string holosar::ezcom::Message::GetString</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetString</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the string field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::string the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="237" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Message_1a167eca76d91d750177f57ed16766bb71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string holosar::ezcom::Message::GetBytes</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetBytes</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>get the bytes field at the index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the field </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::string the value of the field </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/message.h" line="244" column="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/ezcom/message.h" line="22" column="14" bodyfile="include/ezcom/message.h" bodystart="22" bodyend="248"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a87ffdb32f5b52e3ea66ccb1986358527" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddBool</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1abc57c60c0ff0c7e1a05ff314d9ea7247" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddBytes</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a0ba418ea5d8fe3aa6dfb973eea9ee17f" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddDouble</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1afc96373a29b9d05b4f5efa74efa16b61" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddFloat</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1ac56d200ab0d06e357988d76955111825" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddInt32</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a3bfb1a34dc347dfe2248ec90cefe931c" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddInt64</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1af561efe3c08bbc2785747fb4a8c0b52b" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddString</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a95de2fd5eeb4295bcbc3dbebd8c64fea" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddUint32</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1ab16dd3b54da09c3612cdba571811190c" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>AddUint64</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a45cd888a2983076bf7d3e4a2e4c76d71" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanAll</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a5d5542e1c7ae896de0763de785176f09" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanBool</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1abe0aa213f1efd8964a053fc60b277eaf" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanBytes</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a987b04b872ca4a9a68d8b46b2a954e4e" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanDouble</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1aae0e65388e269e174b7e003f741a693a" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanFloat</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1ad5339fae46c13db763fc96aed860cb42" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanInt32</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a2ed211ab1790f898749b005a64461ab0" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanInt64</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1af78241f0bb4df0b000970d2a328ef17e" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanString</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a2bca5db0865b9e0922d58a72c932eaa6" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanUint32</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a7b1f39c90d98101c4195059b8e313a5c" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>CleanUint64</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a52410eee183bc7aade38e0d0e48665fd" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetBool</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a64912caa1b369f0da1e0a8464d8caad4" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetBoolSize</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a167eca76d91d750177f57ed16766bb71" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetBytes</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1abb617eb8b6dd25d682208bd4295e80e8" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetBytesSize</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a240447e1f7a52f62faa897b45219dbbc" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetDouble</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a8dd584c220843e7244a52b7614759ad8" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetDoubleSize</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a7fd83f4c4ec43b4c4e2e7f4e9259c197" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetFloat</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a239b42d27d09666a399e8a6e0ee8214a" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetFloatSize</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a57f7cf49518bac97339112334d7f4e29" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetInt32</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1ae4a21749c551093a7a20aaf28671efbc" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetInt32Size</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a0e79b49084647c98ba5003828aa6a303" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetInt64</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a3f4e4074b9e4fd209ebbce007307d5ec" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetInt64Size</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a37b4764c182c9cd9ec312d0705adfb66" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetMsgId</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a7a1decc9f337de8732aed6a9848fe19c" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetProtobufMessage</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1ae5cabf98fefef92df46d23a71b3f6941" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetString</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1af795f0db5dafb20186eedeb185d6f0a0" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetStringSize</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a6c1ec7deb8dd17b7d093484ee99f67f2" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetUint32</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1aec40b57682335e108a7cf94067c7f698" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetUint32Size</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a0549c6f36caedc7bd9606b4316782634" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetUint64</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a19d39ec964e74c766ee888b8b4093023" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>GetUint64Size</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a4772f4fb49b46e48b447494b5cb77bbe" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>Message</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a68ecca96e58b42448845f91e5d0c15b5" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>Message</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a0217a1f7742d8c1e360fdab24db6f958" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>Message</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a29153e0277b4b03a3b18d31185b439c2" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>operator=</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a9211ce01911ceb4b57a1bd7a2e94813d" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>operator=</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a1940d6458bfa1bdfed33f36afd340409" prot="private" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>proto_msg_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a2a21da102ea28524640dd4c01dc30317" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>SetMsgId</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Message_1a31e17ee9cb9a8fbf678c91dd25bcf74f" prot="public" virt="non-virtual"><scope>holosar::ezcom::Message</scope><name>~Message</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

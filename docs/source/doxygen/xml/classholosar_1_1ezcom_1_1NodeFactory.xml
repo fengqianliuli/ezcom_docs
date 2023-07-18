@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1NodeFactory" kind="class" language="C++" prot="public">
+    <compoundname>holosar::ezcom::NodeFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1NodeFactory_1aef2ee7c83353c3dfd35ab1a5382ebecd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Client" kindref="compound">Client</ref> &gt;</type>
+        <definition>static std::unique_ptr&lt;Client&gt; holosar::ezcom::NodeFactory::CreateClient</definition>
+        <argsstring>(const TransportType &amp;transport_type)</argsstring>
+        <name>CreateClient</name>
+        <param>
+          <type>const <ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref> &amp;</type>
+          <declname>transport_type</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="classholosar_1_1ezcom_1_1Client" kindref="compound">Client</ref> object by transport type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of transport(IPC, TCP) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::unique_ptr&lt;Client&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node_factory.h" line="33" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1NodeFactory_1a95895805e11291e87f81f532bdb5bf0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Server" kindref="compound">Server</ref> &gt;</type>
+        <definition>static std::unique_ptr&lt;Server&gt; holosar::ezcom::NodeFactory::CreateServer</definition>
+        <argsstring>(const TransportType &amp;transport_type)</argsstring>
+        <name>CreateServer</name>
+        <param>
+          <type>const <ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref> &amp;</type>
+          <declname>transport_type</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="classholosar_1_1ezcom_1_1Server" kindref="compound">Server</ref> object by transport type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of transport(IPC, TCP) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::unique_ptr&lt;Server&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node_factory.h" line="41" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1NodeFactory_1ac5123f27f62b611e6201a1e42ed5ae81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Publisher" kindref="compound">Publisher</ref> &gt;</type>
+        <definition>static std::unique_ptr&lt;Publisher&gt; holosar::ezcom::NodeFactory::CreatePublisher</definition>
+        <argsstring>(const TransportType &amp;transport_type)</argsstring>
+        <name>CreatePublisher</name>
+        <param>
+          <type>const <ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref> &amp;</type>
+          <declname>transport_type</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="classholosar_1_1ezcom_1_1Publisher" kindref="compound">Publisher</ref> object by transport type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of transport(IPC, TCP) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::unique_ptr&lt;Publisher&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node_factory.h" line="54" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1NodeFactory_1a02cf5b587618230807bb8968bc8477ff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Subscriber" kindref="compound">Subscriber</ref> &gt;</type>
+        <definition>static std::unique_ptr&lt;Subscriber&gt; holosar::ezcom::NodeFactory::CreateSubscriber</definition>
+        <argsstring>(const TransportType &amp;transport_type)</argsstring>
+        <name>CreateSubscriber</name>
+        <param>
+          <type>const <ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref> &amp;</type>
+          <declname>transport_type</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="classholosar_1_1ezcom_1_1Subscriber" kindref="compound">Subscriber</ref> object by transport type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>transport_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of transport(IPC, TCP) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::unique_ptr&lt;Subscriber&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node_factory.h" line="62" column="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1NodeFactory_1ae4a291847ae4799bbb40b4d69355764e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Node" kindref="compound">Node</ref> &gt;</type>
+        <definition>static std::unique_ptr&lt;Node&gt; holosar::ezcom::NodeFactory::CreateNode</definition>
+        <argsstring>(const NodeType &amp;node_type, const CommMode &amp;comm_mode, const TransportType &amp;transport_type)</argsstring>
+        <name>CreateNode</name>
+        <param>
+          <type>const <ref refid="types_8h_1a2f0b33e8bad23d94460d71485799a19b" kindref="member">NodeType</ref> &amp;</type>
+          <declname>node_type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="types_8h_1aec1f5efcf125a58797b22c131a61f319" kindref="member">CommMode</ref> &amp;</type>
+          <declname>comm_mode</declname>
+        </param>
+        <param>
+          <type>const <ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref> &amp;</type>
+          <declname>transport_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node_factory.h" line="68" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1NodeFactory_1a635257bf3a6143fa01a213d3ed4df890" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Node" kindref="compound">Node</ref> &gt; &gt;</type>
+        <definition>static std::vector&lt;std::unique_ptr&lt;Node&gt; &gt; holosar::ezcom::NodeFactory::CreateZmqInprocNode</definition>
+        <argsstring>(const CommMode &amp;comm_mode, int node_num)</argsstring>
+        <name>CreateZmqInprocNode</name>
+        <param>
+          <type>const <ref refid="types_8h_1aec1f5efcf125a58797b22c131a61f319" kindref="member">CommMode</ref> &amp;</type>
+          <declname>comm_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>node_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node_factory.h" line="71" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/ezcom/node_factory.h" line="25" column="18" bodyfile="include/ezcom/node_factory.h" bodystart="25" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1NodeFactory_1aef2ee7c83353c3dfd35ab1a5382ebecd" prot="public" virt="non-virtual"><scope>holosar::ezcom::NodeFactory</scope><name>CreateClient</name></member>
+      <member refid="classholosar_1_1ezcom_1_1NodeFactory_1ae4a291847ae4799bbb40b4d69355764e" prot="private" virt="non-virtual"><scope>holosar::ezcom::NodeFactory</scope><name>CreateNode</name></member>
+      <member refid="classholosar_1_1ezcom_1_1NodeFactory_1ac5123f27f62b611e6201a1e42ed5ae81" prot="public" virt="non-virtual"><scope>holosar::ezcom::NodeFactory</scope><name>CreatePublisher</name></member>
+      <member refid="classholosar_1_1ezcom_1_1NodeFactory_1a95895805e11291e87f81f532bdb5bf0f" prot="public" virt="non-virtual"><scope>holosar::ezcom::NodeFactory</scope><name>CreateServer</name></member>
+      <member refid="classholosar_1_1ezcom_1_1NodeFactory_1a02cf5b587618230807bb8968bc8477ff" prot="public" virt="non-virtual"><scope>holosar::ezcom::NodeFactory</scope><name>CreateSubscriber</name></member>
+      <member refid="classholosar_1_1ezcom_1_1NodeFactory_1a635257bf3a6143fa01a213d3ed4df890" prot="private" virt="non-virtual"><scope>holosar::ezcom::NodeFactory</scope><name>CreateZmqInprocNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

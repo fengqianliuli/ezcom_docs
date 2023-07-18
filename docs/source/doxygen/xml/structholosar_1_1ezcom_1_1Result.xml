@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structholosar_1_1ezcom_1_1Result" kind="struct" language="C++" prot="public">
+    <compoundname>holosar::ezcom::Result</compoundname>
+    <includes refid="client_8h" local="no">client.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structholosar_1_1ezcom_1_1Result_1ad97d861b22d67cd257e14a2d6e610b66" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cb" kindref="member">ResultType</ref></type>
+        <definition>ResultType holosar::ezcom::Result::res_type</definition>
+        <argsstring></argsstring>
+        <name>res_type</name>
+        <briefdescription>
+<para>The result type of request <ref refid="" kindref="compound">ResultType.</ref></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="30" column="14" bodyfile="include/ezcom/client.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structholosar_1_1ezcom_1_1Result_1ac8fd9ca62dcf2921749d458cdaf66027" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Message&gt; holosar::ezcom::Result::rep_message</definition>
+        <argsstring></argsstring>
+        <name>rep_message</name>
+        <briefdescription>
+<para>The response message. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="32" column="19" bodyfile="include/ezcom/client.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The result type of request. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/ezcom/client.h" line="28" column="13" bodyfile="include/ezcom/client.h" bodystart="28" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structholosar_1_1ezcom_1_1Result_1ac8fd9ca62dcf2921749d458cdaf66027" prot="public" virt="non-virtual"><scope>holosar::ezcom::Result</scope><name>rep_message</name></member>
+      <member refid="structholosar_1_1ezcom_1_1Result_1ad97d861b22d67cd257e14a2d6e610b66" prot="public" virt="non-virtual"><scope>holosar::ezcom::Result</scope><name>res_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

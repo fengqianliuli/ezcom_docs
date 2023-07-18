@@ -1,0 +1,93 @@
+\hypertarget{classholosar_1_1ezcom_1_1NodeFactory}{}\doxysection{holosar\+::ezcom\+::Node\+Factory类 参考}
+\label{classholosar_1_1ezcom_1_1NodeFactory}\index{holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}}
+\doxysubsection*{静态 Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client}{Client}} $>$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1NodeFactory_aef2ee7c83353c3dfd35ab1a5382ebecd}{Create\+Client}} (const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&transport\+\_\+type)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client}{Client}} object by transport type \end{DoxyCompactList}\item 
+static std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Server}{Server}} $>$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1NodeFactory_a95895805e11291e87f81f532bdb5bf0f}{Create\+Server}} (const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&transport\+\_\+type)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Server}{Server}} object by transport type \end{DoxyCompactList}\item 
+static std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Publisher}{Publisher}} $>$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1NodeFactory_ac5123f27f62b611e6201a1e42ed5ae81}{Create\+Publisher}} (const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&transport\+\_\+type)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Publisher}{Publisher}} object by transport type \end{DoxyCompactList}\item 
+static std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1Subscriber}{Subscriber}} $>$ \mbox{\hyperlink{classholosar_1_1ezcom_1_1NodeFactory_a02cf5b587618230807bb8968bc8477ff}{Create\+Subscriber}} (const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&transport\+\_\+type)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Subscriber}{Subscriber}} object by transport type \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{成员函数说明}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1NodeFactory_aef2ee7c83353c3dfd35ab1a5382ebecd}\label{classholosar_1_1ezcom_1_1NodeFactory_aef2ee7c83353c3dfd35ab1a5382ebecd}} 
+\index{holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}!CreateClient@{CreateClient}}
+\index{CreateClient@{CreateClient}!holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}}
+\doxysubsubsection{\texorpdfstring{CreateClient()}{CreateClient()}}
+{\footnotesize\ttfamily static std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classholosar_1_1ezcom_1_1Client}{Client}}$>$ holosar\+::ezcom\+::\+Node\+Factory\+::\+Create\+Client (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&}]{transport\+\_\+type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client}{Client}} object by transport type 
+
+
+\begin{DoxyParams}{参数}
+{\em transport\+\_\+type} & type of transport(\+I\+P\+C, T\+C\+P) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+std\+::unique\+\_\+ptr$<$\+Client$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1NodeFactory_ac5123f27f62b611e6201a1e42ed5ae81}\label{classholosar_1_1ezcom_1_1NodeFactory_ac5123f27f62b611e6201a1e42ed5ae81}} 
+\index{holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}!CreatePublisher@{CreatePublisher}}
+\index{CreatePublisher@{CreatePublisher}!holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}}
+\doxysubsubsection{\texorpdfstring{CreatePublisher()}{CreatePublisher()}}
+{\footnotesize\ttfamily static std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classholosar_1_1ezcom_1_1Publisher}{Publisher}}$>$ holosar\+::ezcom\+::\+Node\+Factory\+::\+Create\+Publisher (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&}]{transport\+\_\+type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Publisher}{Publisher}} object by transport type 
+
+
+\begin{DoxyParams}{参数}
+{\em transport\+\_\+type} & type of transport(\+I\+P\+C, T\+C\+P) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+std\+::unique\+\_\+ptr$<$\+Publisher$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1NodeFactory_a95895805e11291e87f81f532bdb5bf0f}\label{classholosar_1_1ezcom_1_1NodeFactory_a95895805e11291e87f81f532bdb5bf0f}} 
+\index{holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}!CreateServer@{CreateServer}}
+\index{CreateServer@{CreateServer}!holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}}
+\doxysubsubsection{\texorpdfstring{CreateServer()}{CreateServer()}}
+{\footnotesize\ttfamily static std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classholosar_1_1ezcom_1_1Server}{Server}}$>$ holosar\+::ezcom\+::\+Node\+Factory\+::\+Create\+Server (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&}]{transport\+\_\+type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Server}{Server}} object by transport type 
+
+
+\begin{DoxyParams}{参数}
+{\em transport\+\_\+type} & type of transport(\+I\+P\+C, T\+C\+P) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+std\+::unique\+\_\+ptr$<$\+Server$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classholosar_1_1ezcom_1_1NodeFactory_a02cf5b587618230807bb8968bc8477ff}\label{classholosar_1_1ezcom_1_1NodeFactory_a02cf5b587618230807bb8968bc8477ff}} 
+\index{holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}!CreateSubscriber@{CreateSubscriber}}
+\index{CreateSubscriber@{CreateSubscriber}!holosar::ezcom::NodeFactory@{holosar::ezcom::NodeFactory}}
+\doxysubsubsection{\texorpdfstring{CreateSubscriber()}{CreateSubscriber()}}
+{\footnotesize\ttfamily static std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{classholosar_1_1ezcom_1_1Subscriber}{Subscriber}}$>$ holosar\+::ezcom\+::\+Node\+Factory\+::\+Create\+Subscriber (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{types_8h_a5ea0994336f06c9c480552a814f3068c}{Transport\+Type}} \&}]{transport\+\_\+type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a \mbox{\hyperlink{classholosar_1_1ezcom_1_1Subscriber}{Subscriber}} object by transport type 
+
+
+\begin{DoxyParams}{参数}
+{\em transport\+\_\+type} & type of transport(\+I\+P\+C, T\+C\+P) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+std\+::unique\+\_\+ptr$<$\+Subscriber$>$ 
+\end{DoxyReturn}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+include/ezcom/\mbox{\hyperlink{node__factory_8h}{node\+\_\+factory.\+h}}\end{DoxyCompactItemize}

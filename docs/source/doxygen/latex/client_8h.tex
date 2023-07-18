@@ -1,0 +1,61 @@
+\hypertarget{client_8h}{}\doxysection{include/ezcom/client.h 文件参考}
+\label{client_8h}\index{include/ezcom/client.h@{include/ezcom/client.h}}
+
+
+client interface  
+
+
+{\ttfamily \#include $<$functional$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}message.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}node.\+h\char`\"{}}\newline
+client.\+h 的引用(Include)关系图\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{client_8h__incl}
+\end{center}
+\end{figure}
+此图展示该文件直接或间接的被哪些文件引用了\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{client_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{类}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structholosar_1_1ezcom_1_1Result}{holosar\+::ezcom\+::\+Result}}
+\begin{DoxyCompactList}\small\item\em The result type of request \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classholosar_1_1ezcom_1_1Client}{holosar\+::ezcom\+::\+Client}}
+\end{DoxyCompactItemize}
+\doxysubsection*{类型定义}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{client_8h_a49474879a9346bdab75247338d069589}\label{client_8h_a49474879a9346bdab75247338d069589}} 
+using \mbox{\hyperlink{client_8h_a49474879a9346bdab75247338d069589}{holosar\+::ezcom\+::\+Connection\+Callback}} = std\+::function$<$ void(const Connection\+Event \&)$>$
+\begin{DoxyCompactList}\small\item\em Connection event callback function type \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{client_8h_a5660f09dcaaa280fbce4d827a91ea987}\label{client_8h_a5660f09dcaaa280fbce4d827a91ea987}} 
+using \mbox{\hyperlink{client_8h_a5660f09dcaaa280fbce4d827a91ea987}{holosar\+::ezcom\+::\+Result\+Callback}} = std\+::function$<$ void(const Result)$>$
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structholosar_1_1ezcom_1_1Result}{Result}} callback function type of async request \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{详细描述}
+client interface 
+
+\begin{DoxyAuthor}{作者}
+haotian.\+shi (\href{mailto:shihaotian@holomatic.com}{\texttt{ shihaotian@holomatic.\+com}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{版本}
+0.\+2.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{日期}
+2023-\/07-\/18
+\end{DoxyDate}
+\begin{DoxyCopyright}{版权所有}
+Copyright (c) 2023 
+\end{DoxyCopyright}

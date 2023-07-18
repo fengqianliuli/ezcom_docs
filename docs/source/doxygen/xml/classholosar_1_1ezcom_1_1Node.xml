@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Node" kind="class" language="C++" prot="public">
+    <compoundname>holosar::ezcom::Node</compoundname>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1Client" prot="public" virt="non-virtual">holosar::ezcom::Client</derivedcompoundref>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1Publisher" prot="public" virt="non-virtual">holosar::ezcom::Publisher</derivedcompoundref>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1Server" prot="public" virt="non-virtual">holosar::ezcom::Server</derivedcompoundref>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1Subscriber" prot="public" virt="non-virtual">holosar::ezcom::Subscriber</derivedcompoundref>
+    <includes refid="node_8h" local="no">node.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" prot="protected" static="no" mutable="no">
+        <type><ref refid="types_8h_1a2f0b33e8bad23d94460d71485799a19b" kindref="member">NodeType</ref></type>
+        <definition>NodeType holosar::ezcom::Node::node_type_</definition>
+        <argsstring></argsstring>
+        <name>node_type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node.h" line="29" column="12" bodyfile="include/ezcom/node.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" prot="protected" static="no" mutable="no">
+        <type><ref refid="types_8h_1aec1f5efcf125a58797b22c131a61f319" kindref="member">CommMode</ref></type>
+        <definition>CommMode holosar::ezcom::Node::comm_mode_</definition>
+        <argsstring></argsstring>
+        <name>comm_mode_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node.h" line="30" column="12" bodyfile="include/ezcom/node.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" prot="protected" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref></type>
+        <definition>TransportType holosar::ezcom::Node::transport_type_</definition>
+        <argsstring></argsstring>
+        <name>transport_type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node.h" line="31" column="17" bodyfile="include/ezcom/node.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Node::Node</definition>
+        <argsstring>()=default</argsstring>
+        <name>Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node.h" line="25" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual holosar::ezcom::Node::~Node</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/node.h" line="26" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>the base class of all nodes </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>holosar::ezcom::Subscriber</label>
+        <link refid="classholosar_1_1ezcom_1_1Subscriber"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>holosar::ezcom::Server</label>
+        <link refid="classholosar_1_1ezcom_1_1Server"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Client</label>
+        <link refid="classholosar_1_1ezcom_1_1Client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+      <node id="3">
+        <label>holosar::ezcom::Publisher</label>
+        <link refid="classholosar_1_1ezcom_1_1Publisher"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="include/ezcom/node.h" line="23" column="11" bodyfile="include/ezcom/node.h" bodystart="23" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Node</scope><name>comm_mode_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" prot="public" virt="non-virtual"><scope>holosar::ezcom::Node</scope><name>Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Node</scope><name>node_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Node</scope><name>transport_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" prot="public" virt="virtual"><scope>holosar::ezcom::Node</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

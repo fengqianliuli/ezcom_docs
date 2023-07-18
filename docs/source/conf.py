@@ -11,6 +11,8 @@ release = 'v0.2.0'
 # -- General configuration
 
 extensions = [
+    'breathe',
+    'exhale',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -19,6 +21,27 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables',
 ]
+
+# breathe_projects = {
+#     "EZcom": "doxygen/xml",
+# }
+# breathe_default_project = "EZcom"
+
+# # Setup the exhale extension
+# exhale_args = {
+#     # These arguments are required
+#     "containmentFolder":     "./api",
+#     "rootFileName":          "library_root.rst",
+#     "doxygenStripFromPath":  "..",
+#     # Heavily encouraged optional argument (see docs)
+#     "rootFileTitle":         "Library API",
+#     # Suggested optional arguments
+#     "createTreeView":        True,
+#     # TIP: if using the sphinx-bootstrap-theme, you need
+#     # "treeViewIsBootstrap": True,
+#     "exhaleExecutesDoxygen": True,
+#     "exhaleDoxygenStdin":    "INPUT = ../include"
+# }
 
 source_suffix = {
   '.rst': 'restructuredtext',
@@ -38,6 +61,7 @@ language = 'zh_CN'
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

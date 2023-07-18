@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Client" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>holosar::ezcom::Client</compoundname>
+    <basecompoundref refid="classholosar_1_1ezcom_1_1Node" prot="public" virt="non-virtual">holosar::ezcom::Node</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Client_1af3b38e31846d9c5b4d88355b629a4eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Client::Client</definition>
+        <argsstring>()=default</argsstring>
+        <name>Client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="42" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Client_1a3cda66046f39dc68460f18843ac68f46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual holosar::ezcom::Client::~Client</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="43" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Client_1aae5f97c093cebc83b7617298314c8dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void holosar::ezcom::Client::Connect</definition>
+        <argsstring>(const std::string &amp;addr, const ConnectionCallback &amp;conn_cb=nullptr)=0</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="client_8h_1a49474879a9346bdab75247338d069589" kindref="member">ConnectionCallback</ref> &amp;</type>
+          <declname>conn_cb</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>client connect to a address and set the connection callback </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address of the server </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conn_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>connection callback <ref refid="" kindref="compound">, default is nullptr </ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="50" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Client_1a369bd24d965da904f48884b18e97a0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="structholosar_1_1ezcom_1_1Result" kindref="compound">Result</ref></type>
+        <definition>virtual Result holosar::ezcom::Client::SyncRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; Message &gt; &amp;req_message, int timeout_ms=-1)=0</argsstring>
+        <name>SyncRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt; &amp;</type>
+          <declname>req_message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout_ms</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>client sync request to server </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>req_message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>request message </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeout_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>timeout in ms, default is -1, which means no timeout </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="structholosar_1_1ezcom_1_1Result" kindref="compound">Result</ref>, which contains the result type and response message </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="59" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Client_1a125a905b168d47b190d60b173b976f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void holosar::ezcom::Client::AsyncRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; Message &gt; &amp;req_message, const ResultCallback &amp;result_cb, int timeout_ms=-1)=0</argsstring>
+        <name>AsyncRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt; &amp;</type>
+          <declname>req_message</declname>
+        </param>
+        <param>
+          <type>const <ref refid="client_8h_1a5660f09dcaaa280fbce4d827a91ea987" kindref="member">ResultCallback</ref> &amp;</type>
+          <declname>result_cb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout_ms</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>client async request to server </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>req_message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>request message </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>result_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>result callback <ref refid="" kindref="compound">timeout_ms timeout in ms, default is -1, which means no timeout </ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="68" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>holosar::ezcom::Client</label>
+        <link refid="classholosar_1_1ezcom_1_1Client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>holosar::ezcom::Client</label>
+        <link refid="classholosar_1_1ezcom_1_1Client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/client.h" line="40" column="25" bodyfile="include/ezcom/client.h" bodystart="40" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Client_1a125a905b168d47b190d60b173b976f16" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Client</scope><name>AsyncRequest</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Client_1af3b38e31846d9c5b4d88355b629a4eb5" prot="public" virt="non-virtual"><scope>holosar::ezcom::Client</scope><name>Client</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Client</scope><name>comm_mode_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Client_1aae5f97c093cebc83b7617298314c8dbc" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Client</scope><name>Connect</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" prot="public" virt="non-virtual"><scope>holosar::ezcom::Client</scope><name>Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Client</scope><name>node_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Client_1a369bd24d965da904f48884b18e97a0b8" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Client</scope><name>SyncRequest</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Client</scope><name>transport_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Client_1a3cda66046f39dc68460f18843ac68f46" prot="public" virt="virtual"><scope>holosar::ezcom::Client</scope><name>~Client</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" prot="public" virt="virtual"><scope>holosar::ezcom::Client</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

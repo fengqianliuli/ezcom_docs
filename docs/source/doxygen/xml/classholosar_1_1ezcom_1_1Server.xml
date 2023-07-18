@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Server" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>holosar::ezcom::Server</compoundname>
+    <basecompoundref refid="classholosar_1_1ezcom_1_1Node" prot="public" virt="non-virtual">holosar::ezcom::Node</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Server_1a1f4b06a3d3ae9d8d2251b5037d62e37c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Server::Server</definition>
+        <argsstring>()=default</argsstring>
+        <name>Server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/server.h" line="29" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Server_1a9b0cd157e1ab4860ded06a3c579659c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual holosar::ezcom::Server::~Server</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/server.h" line="30" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Server_1a684325f5184793f0ff5d0fa831bca1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void holosar::ezcom::Server::Bind</definition>
+        <argsstring>(const std::string &amp;addr, const MessageHandler &amp;handler)=0</argsstring>
+        <name>Bind</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="server_8h_1aaf40d65ddb9384ea465106c02730b076" kindref="member">MessageHandler</ref> &amp;</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+<para>server bind to a address and set the message handler </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message handler </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/server.h" line="37" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>holosar::ezcom::Server</label>
+        <link refid="classholosar_1_1ezcom_1_1Server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>holosar::ezcom::Server</label>
+        <link refid="classholosar_1_1ezcom_1_1Server"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/server.h" line="27" column="25" bodyfile="include/ezcom/server.h" bodystart="27" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Server_1a684325f5184793f0ff5d0fa831bca1d5" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Server</scope><name>Bind</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Server</scope><name>comm_mode_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" prot="public" virt="non-virtual"><scope>holosar::ezcom::Server</scope><name>Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Server</scope><name>node_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Server_1a1f4b06a3d3ae9d8d2251b5037d62e37c" prot="public" virt="non-virtual"><scope>holosar::ezcom::Server</scope><name>Server</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Server</scope><name>transport_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" prot="public" virt="virtual"><scope>holosar::ezcom::Server</scope><name>~Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Server_1a9b0cd157e1ab4860ded06a3c579659c7" prot="public" virt="virtual"><scope>holosar::ezcom::Server</scope><name>~Server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

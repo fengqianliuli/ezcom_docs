@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Exception" kind="class" language="C++" prot="public">
+    <compoundname>holosar::ezcom::Exception</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">runtime_error</basecompoundref>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1AlreadyDoneException" prot="public" virt="non-virtual">holosar::ezcom::AlreadyDoneException</derivedcompoundref>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1InvalidParamException" prot="public" virt="non-virtual">holosar::ezcom::InvalidParamException</derivedcompoundref>
+    <derivedcompoundref refid="classholosar_1_1ezcom_1_1ResourceException" prot="public" virt="non-virtual">holosar::ezcom::ResourceException</derivedcompoundref>
+    <includes refid="exception_8h" local="no">exception.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Exception_1a243fddb4d9723f0f493410460b13f38c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Exception::Exception</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>Exception</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/exception.h" line="26" column="3" bodyfile="include/ezcom/exception.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>declare the exception class base class of all exceptions, extends from std::runtime_error </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>holosar::ezcom::AlreadyDoneException</label>
+        <link refid="classholosar_1_1ezcom_1_1AlreadyDoneException"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>holosar::ezcom::InvalidParamException</label>
+        <link refid="classholosar_1_1ezcom_1_1InvalidParamException"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::runtime_error</label>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::Exception</label>
+        <link refid="classholosar_1_1ezcom_1_1Exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>holosar::ezcom::ResourceException</label>
+        <link refid="classholosar_1_1ezcom_1_1ResourceException"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::runtime_error</label>
+      </node>
+      <node id="1">
+        <label>holosar::ezcom::Exception</label>
+        <link refid="classholosar_1_1ezcom_1_1Exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/exception.h" line="24" column="42" bodyfile="include/ezcom/exception.h" bodystart="24" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Exception_1a243fddb4d9723f0f493410460b13f38c" prot="public" virt="non-virtual"><scope>holosar::ezcom::Exception</scope><name>Exception</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

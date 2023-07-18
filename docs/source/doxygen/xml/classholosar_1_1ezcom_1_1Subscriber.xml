@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classholosar_1_1ezcom_1_1Subscriber" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>holosar::ezcom::Subscriber</compoundname>
+    <basecompoundref refid="classholosar_1_1ezcom_1_1Node" prot="public" virt="non-virtual">holosar::ezcom::Node</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Subscriber_1a762c7d4d560e2039f23ebe0e6f0b32a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>holosar::ezcom::Subscriber::Subscriber</definition>
+        <argsstring>()=default</argsstring>
+        <name>Subscriber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/subscriber.h" line="28" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Subscriber_1a6a8b553b2a2af671fff42a6f50544ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual holosar::ezcom::Subscriber::~Subscriber</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Subscriber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/subscriber.h" line="29" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classholosar_1_1ezcom_1_1Subscriber_1a83d906f91fdefbc35436333a8806b0ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void holosar::ezcom::Subscriber::Subscribe</definition>
+        <argsstring>(const std::string &amp;addr, const MsgCallback &amp;msg_cb, const std::string &amp;topic=&quot;default_topic&quot;)=0</argsstring>
+        <name>Subscribe</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="subscriber_8h_1a3fbde2da2e6da6f6b5be17370028c98b" kindref="member">MsgCallback</ref> &amp;</type>
+          <declname>msg_cb</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>topic</declname>
+          <defval>&quot;default_topic&quot;</defval>
+        </param>
+        <briefdescription>
+<para>subscriber subscribe to a address and set the message callback </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address of the publisher </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>msg_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message callback <ref refid="" kindref="compound">topic topic name, default is &quot;default_topic&quot; </ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/subscriber.h" line="37" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>holosar::ezcom::Subscriber</label>
+        <link refid="classholosar_1_1ezcom_1_1Subscriber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>holosar::ezcom::Subscriber</label>
+        <link refid="classholosar_1_1ezcom_1_1Subscriber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>holosar::ezcom::Node</label>
+        <link refid="classholosar_1_1ezcom_1_1Node"/>
+      </node>
+    </collaborationgraph>
+    <location file="include/ezcom/subscriber.h" line="26" column="29" bodyfile="include/ezcom/subscriber.h" bodystart="26" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classholosar_1_1ezcom_1_1Node_1af71d57acf8b4bf4cb8b6630527aa78aa" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Subscriber</scope><name>comm_mode_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1a6e82c08996ce146a1617a1d0655dc0fa" prot="public" virt="non-virtual"><scope>holosar::ezcom::Subscriber</scope><name>Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ac85d0dffc87ff17503d599c7de27be3a" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Subscriber</scope><name>node_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Subscriber_1a83d906f91fdefbc35436333a8806b0ad" prot="public" virt="pure-virtual"><scope>holosar::ezcom::Subscriber</scope><name>Subscribe</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Subscriber_1a762c7d4d560e2039f23ebe0e6f0b32a8" prot="public" virt="non-virtual"><scope>holosar::ezcom::Subscriber</scope><name>Subscriber</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1ae8ee4c1bdba47f9d92f4ee7e69f3bfc4" prot="protected" virt="non-virtual"><scope>holosar::ezcom::Subscriber</scope><name>transport_type_</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Node_1aeb7da5d7539f4a9067f03848c6ff24c3" prot="public" virt="virtual"><scope>holosar::ezcom::Subscriber</scope><name>~Node</name></member>
+      <member refid="classholosar_1_1ezcom_1_1Subscriber_1a6a8b553b2a2af671fff42a6f50544ae7" prot="public" virt="virtual"><scope>holosar::ezcom::Subscriber</scope><name>~Subscriber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

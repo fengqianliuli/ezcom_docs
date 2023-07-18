@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceholosar_1_1ezcom" kind="namespace" language="C++">
+    <compoundname>holosar::ezcom</compoundname>
+    <innerclass refid="classholosar_1_1ezcom_1_1AlreadyDoneException" prot="public">holosar::ezcom::AlreadyDoneException</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Client" prot="public">holosar::ezcom::Client</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Exception" prot="public">holosar::ezcom::Exception</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1InvalidParamException" prot="public">holosar::ezcom::InvalidParamException</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Message" prot="public">holosar::ezcom::Message</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Node" prot="public">holosar::ezcom::Node</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1NodeFactory" prot="public">holosar::ezcom::NodeFactory</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Publisher" prot="public">holosar::ezcom::Publisher</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1ResourceException" prot="public">holosar::ezcom::ResourceException</innerclass>
+    <innerclass refid="structholosar_1_1ezcom_1_1Result" prot="public">holosar::ezcom::Result</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Server" prot="public">holosar::ezcom::Server</innerclass>
+    <innerclass refid="classholosar_1_1ezcom_1_1Subscriber" prot="public">holosar::ezcom::Subscriber</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="types_8h_1a2f0b33e8bad23d94460d71485799a19b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NodeType</name>
+        <enumvalue id="types_8h_1a2f0b33e8bad23d94460d71485799a19ba5e096345ff5df364fa85084d1bb1aa70" prot="public">
+          <name>kClient</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a2f0b33e8bad23d94460d71485799a19ba715c76514601e8aea81451c7edb84c8e" prot="public">
+          <name>kServer</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a2f0b33e8bad23d94460d71485799a19ba655cdd7fe7c770ace5356015b0d92f0e" prot="public">
+          <name>kPublisher</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a2f0b33e8bad23d94460d71485799a19ba14eea8cdd6da620d327ae16cb538bd21" prot="public">
+          <name>kSubscriber</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>declare the node type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="25" column="20" bodyfile="include/ezcom/types.h" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="types_8h_1aec1f5efcf125a58797b22c131a61f319" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CommMode</name>
+        <enumvalue id="types_8h_1aec1f5efcf125a58797b22c131a61f319a1be9e91982c39098761ef6f29aa2c79d" prot="public">
+          <name>kReqRep</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1aec1f5efcf125a58797b22c131a61f319af0e02742872225b1b9d970da4388ed7d" prot="public">
+          <name>kPubSub</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>declare the communication mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="36" column="20" bodyfile="include/ezcom/types.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="enum" id="types_8h_1a5ea0994336f06c9c480552a814f3068c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TransportType</name>
+        <enumvalue id="types_8h_1a5ea0994336f06c9c480552a814f3068ca6b2b48cbb47ad1e6a7e3dbe543226a7d" prot="public">
+          <name>kZmqInproc</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><xrefsect id="todo_1_todo000001"><xreftitle>Todo</xreftitle><xrefdescription><para>inproc transport type is not supported yet </para>
+</xrefdescription></xrefsect></para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a5ea0994336f06c9c480552a814f3068ca615aad9ab06b5dcbb7a17d040a8cf566" prot="public">
+          <name>kZmqIpc</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a5ea0994336f06c9c480552a814f3068cad2aa8d2b179aaba1cda0547ff05ad7a7" prot="public">
+          <name>kZmqTcp</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>declare the transport type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="45" column="25" bodyfile="include/ezcom/types.h" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="enum" id="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ConnectionEvent</name>
+        <enumvalue id="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98a485b505a72a57b16c8dd36bfc17c98c0" prot="public">
+          <name>kConnected</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98af469e2a5b05d423dd49764004270f117" prot="public">
+          <name>kDisconnected</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>declare the connection event only used for client and server </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="56" column="27" bodyfile="include/ezcom/types.h" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="enum" id="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ResultType</name>
+        <enumvalue id="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba8c632159fa131f09d04f94e3cbcd8782" prot="public">
+          <name>kSuccess</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba7f27861ff1d3f550c6aa77150d7edabd" prot="public">
+          <name>kTimeout</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba8d8e12e70249ac1eb7f27affaff59ca9" prot="public">
+          <name>kCommError</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba22dd83d978bd7a21e19216e7ab8d3a29" prot="public">
+          <name>kInvaildParam</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="types_8h_1a3b377ba0906bd7c4ed14b4c255d4d3cba4366541ea8a34268abc8b24f19fcefdd" prot="public">
+          <name>kUnknownError</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>declare the result type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="65" column="22" bodyfile="include/ezcom/types.h" bodystart="65" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="client_8h_1a49474879a9346bdab75247338d069589" prot="public" static="no">
+        <type>std::function&lt; void(const <ref refid="types_8h_1a78247e4c35fb0cc4ec1b92d1b5d74a98" kindref="member">ConnectionEvent</ref> &amp;)&gt;</type>
+        <definition>using holosar::ezcom::ConnectionCallback = typedef std::function&lt;void(const ConnectionEvent&amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>ConnectionCallback</name>
+        <briefdescription>
+<para>Connection event callback function type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="36" column="1" bodyfile="include/ezcom/client.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="client_8h_1a5660f09dcaaa280fbce4d827a91ea987" prot="public" static="no">
+        <type>std::function&lt; void(const <ref refid="structholosar_1_1ezcom_1_1Result" kindref="compound">Result</ref>)&gt;</type>
+        <definition>using holosar::ezcom::ResultCallback = typedef std::function&lt;void(const Result)&gt;</definition>
+        <argsstring></argsstring>
+        <name>ResultCallback</name>
+        <briefdescription>
+<para><ref refid="structholosar_1_1ezcom_1_1Result" kindref="compound">Result</ref> callback function type of async request. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/client.h" line="38" column="1" bodyfile="include/ezcom/client.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="server_8h_1aaf40d65ddb9384ea465106c02730b076" prot="public" static="no">
+        <type>std::function&lt; const std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt;(const std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt; &amp;)&gt;</type>
+        <definition>using holosar::ezcom::MessageHandler = typedef std::function&lt;const std::shared_ptr&lt;Message&gt;( const std::shared_ptr&lt;Message&gt;&amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>MessageHandler</name>
+        <briefdescription>
+<para><ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> handler Callback function type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/server.h" line="24" column="1" bodyfile="include/ezcom/server.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="subscriber_8h_1a3fbde2da2e6da6f6b5be17370028c98b" prot="public" static="no">
+        <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> &gt; &amp;)&gt;</type>
+        <definition>using holosar::ezcom::MsgCallback = typedef std::function&lt;void(const std::shared_ptr&lt;Message&gt;&amp;)&gt;</definition>
+        <argsstring></argsstring>
+        <name>MsgCallback</name>
+        <briefdescription>
+<para><ref refid="classholosar_1_1ezcom_1_1Message" kindref="compound">Message</ref> Callback function type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/subscriber.h" line="24" column="1" bodyfile="include/ezcom/subscriber.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="types_8h_1a990f755d5ca0e0a9963d3f4f807a469c" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int holosar::ezcom::kZmqRcvTimeout</definition>
+        <argsstring></argsstring>
+        <name>kZmqRcvTimeout</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+<para>The default timeout for zmq receive/send. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="18" column="15" bodyfile="include/ezcom/types.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="types_8h_1a06cfd2f12e8eea831be752650cc67989" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int holosar::ezcom::kZmqSndTimeout</definition>
+        <argsstring></argsstring>
+        <name>kZmqSndTimeout</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/ezcom/types.h" line="19" column="15" bodyfile="include/ezcom/types.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/ezcom/client.h" line="22" column="15"/>
+  </compounddef>
+</doxygen>

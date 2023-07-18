@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="node_8h" kind="file" language="C++">
+    <compoundname>node.h</compoundname>
+    <includes refid="types_8h" local="yes">types.h</includes>
+    <includedby refid="client_8h" local="yes">include/ezcom/client.h</includedby>
+    <includedby refid="publisher_8h" local="yes">include/ezcom/publisher.h</includedby>
+    <includedby refid="server_8h" local="yes">include/ezcom/server.h</includedby>
+    <includedby refid="subscriber_8h" local="yes">include/ezcom/subscriber.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>types.h</label>
+        <link refid="types_8h"/>
+      </node>
+      <node id="1">
+        <label>include/ezcom/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>include/ezcom/publisher.h</label>
+        <link refid="publisher_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>include/ezcom/client.h</label>
+        <link refid="client_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>include/ezcom/server.h</label>
+        <link refid="server_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>include/ezcom/subscriber.h</label>
+        <link refid="subscriber_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>include/ezcom/node.h</label>
+        <link refid="node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>include/ezcom/node_factory.h</label>
+        <link refid="node__factory_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classholosar_1_1ezcom_1_1Node" prot="public">holosar::ezcom::Node</innerclass>
+    <innernamespace refid="namespaceholosar">holosar</innernamespace>
+    <innernamespace refid="namespaceholosar_1_1ezcom">holosar::ezcom</innernamespace>
+    <briefdescription>
+<para>declare the node base class </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>haotian.shi (<ulink url="mailto:shihaotian@holomatic.com">shihaotian@holomatic.com</ulink>) </para>
+</simplesect>
+<simplesect kind="version"><para>0.2.0 </para>
+</simplesect>
+<simplesect kind="date"><para>2023-07-18</para>
+</simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2023 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="types_8h" kindref="compound">types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">holosar<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ezcom<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classholosar_1_1ezcom_1_1Node" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classholosar_1_1ezcom_1_1Node" kindref="compound">Node</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="classholosar_1_1ezcom_1_1Node" kindref="compound">Node</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classholosar_1_1ezcom_1_1Node" kindref="compound">Node</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="types_8h_1a2f0b33e8bad23d94460d71485799a19b" kindref="member">NodeType</ref><sp/>node_type_;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="types_8h_1aec1f5efcf125a58797b22c131a61f319" kindref="member">CommMode</ref><sp/>comm_mode_;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><ref refid="types_8h_1a5ea0994336f06c9c480552a814f3068c" kindref="member">TransportType</ref><sp/>transport_type_;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ezcom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>holosar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="include/ezcom/node.h"/>
+  </compounddef>
+</doxygen>
