@@ -5,8 +5,8 @@ EZcom使用说明文档
    :maxdepth: 2
    :caption: Contents
 
-   md/README
-   md/User-Guide
+   md/README.md
+   md/User-Guide.md
    api/library_root
 
 

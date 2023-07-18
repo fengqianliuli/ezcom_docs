@@ -2,12 +2,11 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'EZcom'
+copyright = '2023, haotian.shi'
+author = 'haotian.shi'
+release = 'v0.2.0'
 
-release = '0.1'
-version = '0.1.0'
 
 # -- General configuration
 
@@ -17,7 +16,14 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'recommonmark',
+    'sphinx_markdown_tables',
 ]
+
+source_suffix = {
+  '.rst': 'restructuredtext',
+  '.md': 'markdown'
+}
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -26,6 +32,8 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+language = 'zh_CN'
 
 # -- Options for HTML output
 
