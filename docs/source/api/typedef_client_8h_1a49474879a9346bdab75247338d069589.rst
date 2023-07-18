@@ -1,0 +1,14 @@
+.. _exhale_typedef_client_8h_1a49474879a9346bdab75247338d069589:
+
+Typedef holosar::ezcom::ConnectionCallback
+==========================================
+
+- Defined in :ref:`file_include_ezcom_client.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: holosar::ezcom::ConnectionCallback
+   :project: EZcom
