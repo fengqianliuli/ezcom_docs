@@ -12,7 +12,6 @@ release = 'v0.2.0'
 
 extensions = [
     'breathe',
-    'exhale',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
