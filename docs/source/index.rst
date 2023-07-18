@@ -2,7 +2,7 @@ EZcom使用说明文档
 ===================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents
 
    md/README.md
