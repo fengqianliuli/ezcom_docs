@@ -1,8 +1,8 @@
 
 # 概述
 
-![https://en.cppreference.com/w/cpp/14](https://img.shields.io/badge/language-C%2B%2B14-brightgreen)
-![https://xmake.io/#/zh-cn/](https://img.shields.io/badge/xmake-v2.7.9-blue)
+![](https://img.shields.io/badge/language-C%2B%2B14-brightgreen)
+![](https://img.shields.io/badge/xmake-v2.7.9-blue)
 
 
 ## EZcom是什么
