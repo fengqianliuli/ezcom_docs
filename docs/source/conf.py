@@ -22,10 +22,10 @@ extensions = [
     'sphinx_markdown_tables',
 ]
 
-# breathe_projects = {
-#     "EZcom": "doxygen/xml",
-# }
-# breathe_default_project = "EZcom"
+breathe_projects = {
+    "EZcom": "doxygen/xml",
+}
+breathe_default_project = "EZcom"
 
 # # Setup the exhale extension
 # exhale_args = {
